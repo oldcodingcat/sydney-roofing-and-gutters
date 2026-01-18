@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Newcastle Local Roofers Design System - Architectural Professional Theme */
+
+@layer base {
+  :root {
+    /* Newcastle Local Roofers Brand Colors - Charcoal (premium/modern) + Electric Blue (trust/technology) */
+    --brand-primary: 210 25% 24%;        /* #2C3E50 - Charcoal Gray */
+    --brand-primary-light: 210 22% 29%;  /* #34495E - Light Charcoal */
+    --brand-accent: 204 70% 53%;         /* #3498DB - Electric Blue */
+    --brand-accent-dark: 204 62% 44%;    /* #2C7CB5 - Darker Blue for hovers */
+    
+    /* Core System Colors */
+    --background: 0 0% 100%;
+    --foreground: 210 25% 24%;           /* Using brand primary (charcoal) for text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 25% 24%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 25% 24%;
+
+    --primary: 210 25% 24%;              /* Brand primary charcoal */
+    --primary-foreground: 0 0% 100%;     /* Keep white - for text on charcoal buttons */
+
+    --secondary: 204 70% 53%;            /* Brand accent electric blue */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 210 15% 45%;
+
+    --accent: 204 70% 53%;               /* Brand electric blue */
+    --accent-foreground: 0 0% 100%;      /* White text on blue accent */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 12% 85%;
+    --input: 210 12% 90%;
+    --ring: 204 70% 53%;                 /* Electric blue for focus rings */
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+
+  /* Architectural Design Elements */
+  .blueprint-line {
+    @apply border-border;
+    border-style: solid;
+    position: relative;
+  }
+
+  .blueprint-line::before {
+    content: '';
+    position: absolute;
+    background: hsl(var(--border));
+  }
+
+  .geometric-frame {
+    @apply border border-border relative;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      hsl(var(--border)) 2px,
+      transparent 2px
+    );
+  }
+
+  .architectural-grid {
+    background-image: 
+      linear-gradient(hsl(var(--border)) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border)) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.1;
+  }
+
+  /* Typography Hierarchy */
+  .architectural-heading {
+    @apply font-bold tracking-tight;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+
+  /* Hover effects for architectural feel */
+  .blueprint-hover {
+    @apply transition-all duration-300;
+    border: 1px solid transparent;
+  }
+
+  .blueprint-hover:hover {
+    @apply border-border shadow-lg;
+    box-shadow: 0 0 0 1px hsl(var(--border)), 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Blog Post Prose Styles */
+.prose {
+  /* IMPORTANTE: Asegurar espaciado entre todos los elementos */
+  .prose > * + * {
+    margin-top: 1.25rem;
+  }
+
+  /* Body */
+  .prose p { 
+    color: #666666; 
+    line-height: 1.8; 
+    margin-bottom: 1.5rem; 
+    margin-top: 1rem; 
+  }
+
+  /* Headers */
+  .prose h2 { 
+    color: #2C3E50; 
+    font-size: 1.875rem; 
+    font-weight: 700; 
+    margin-top: 3.5rem; 
+    margin-bottom: 1.5rem; 
+    line-height: 1.3;
+    padding-top: 0.5rem;
+  }
+  
+  .prose h3 { 
+    color: #2C3E50; 
+    font-size: 1.5rem; 
+    font-weight: 600; 
+    margin-top: 2.5rem; 
+    margin-bottom: 1.25rem; 
+    line-height: 1.4;
+  }
+  
+  .prose h4 { 
+    color: #2C3E50; 
+    font-size: 1.25rem; 
+    font-weight: 600; 
+    margin-top: 2rem; 
+    margin-bottom: 1rem; 
+  }
+
+  /* Links */
+  .prose a { 
+    color: #3498DB; 
+    text-decoration: none; 
+    font-weight: 500; 
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s;
+  }
+  
+  .prose a:hover { 
+    border-bottom-color: #3498DB;
+  }
+
+  /* Lists */
+  .prose ul, .prose ol { 
+    color: #666666; 
+    line-height: 1.8; 
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem; 
+    padding-left: 1.5rem; 
+  }
+  
+  .prose li { 
+    margin-bottom: 0.75rem; 
+  }
+
+  .prose li > p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .prose strong { 
+    color: #2C3E50; 
+    font-weight: 600; 
+  }
+
+  /* Tables */
+  .prose table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 2.5rem; 
+    margin-bottom: 2.5rem; 
+  }
+  
+  .prose th { 
+    text-align: left; 
+    padding: 0.75rem; 
+    background: #F9FAFB; 
+    border-bottom: 2px solid #E5E7EB; 
+    color: #2C3E50; 
+    font-weight: 600; 
+  }
+  
+  .prose td { 
+    padding: 0.75rem; 
+    border-bottom: 1px solid #E5E7EB; 
+    color: #666666; 
+  }
+
+  /* Espaciado para divs (callout boxes) */
+  .prose > div {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
