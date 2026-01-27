@@ -1,5 +1,8 @@
+import { Helmet } from "react-helmet-async";
 import { createLocationRoute } from "@/routes/locations/LocationTemplate";
 import type { LocationSEOConfig, LocationContent } from "@/routes/locations/LocationTemplate";
+
+const SITE_NAME = "Sydney Roofing & Gutters";
 
 const config: LocationSEOConfig = {
   suburb: "Marayong",
@@ -128,7 +131,21 @@ const content: LocationContent = {
   },
 };
 
-const { Page, route } = createLocationRoute(config, content);
+const { Page: BasePage, route } = createLocationRoute(config, content);
+
+const Page = () => (
+  <>
+    <BasePage />
+    <Helmet>
+      <meta name="author" content={SITE_NAME} />
+      <meta name="geo.region" content="AU-NSW" />
+      <meta name="geo.placename" content={config.suburb} />
+      <meta name="geo.position" content={`${config.latitude};${config.longitude}`} />
+      <meta name="ICBM" content={`${config.latitude}, ${config.longitude}`} />
+      <meta property="og:site_name" content={SITE_NAME} />
+    </Helmet>
+  </>
+);
 
 export { route };
 export default Page;
