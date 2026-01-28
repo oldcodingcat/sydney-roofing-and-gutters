@@ -61,6 +61,9 @@ export default function MapWithForm() {
                 onSubmit={(e) => e.preventDefault()}
                 netlify
               >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="Bottom form" />
+
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                   <Input placeholder="First Name" name="firstName" />
                   <Input placeholder="Last Name" name="lastName" />
@@ -74,7 +77,7 @@ export default function MapWithForm() {
 
                 <div className="mt-5">
                   <textarea
-                    name="message"
+                    name="issue"
                     placeholder="What seems to be the issue?"
                     className="h-32 w-full resize-none rounded-lg border border-gray-300 bg-white px-4 py-3 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
                   />
