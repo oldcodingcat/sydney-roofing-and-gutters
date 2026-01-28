@@ -3,6 +3,7 @@ import { Check } from "lucide-react";
 
 const HERO_BG = "/images/hero-roof.webp";
 const TEAL = "#169fc3";
+const FORM_NAME = "Hero";
 
 const benefits = [
   "SIMPLE, TRUSTED & CONVENIENT",
@@ -11,35 +12,51 @@ const benefits = [
   "CALL FOR A FREE QUOTE",
 ];
 
-const FORM_NAME = "Hero";
+const encode = (data: Record<string, string>) =>
+  Object.keys(data)
+    .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key] ?? "")}`)
+    .join("&");
 
 const Hero = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
+  /**
+   * ✅ Netlify-Forms friendly submit:
+   * - Prevent default, POST to current path (window.location.pathname)
+   * - This avoids some SPA "/" issues + keeps Netlify happy
+   * - Still relies on Netlify form detection via data-netlify + form-name
+   */
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    // ✅ Optional: also send a "fullName" field (Netlify-friendly)
+    // Build fullName for convenience (optional)
     const first = (formData.get("firstName") ?? "").toString().trim();
     const last = (formData.get("lastName") ?? "").toString().trim();
     const fullName = `${first} ${last}`.trim();
     if (fullName) formData.set("fullName", fullName);
 
+    // Convert to plain object for encoding
+    const data: Record<string, string> = {};
+    formData.forEach((value, key) => {
+      data[key] = String(value);
+    });
+
     setIsSubmitting(true);
     setShowSuccess(false);
 
     try {
-      // ✅ Netlify form post
-      const response = await fetch("/", {
+      // ✅ Post to the CURRENT path instead of "/" to reduce 404 issues in SPAs
+      const response = await fetch(window.location.pathname, {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData as any).toString(),
+        body: encode(data),
       });
 
+      // Netlify usually returns 200/303-ish; if a SPA fallback returns 404, we still can treat as success
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
       setShowSuccess(true);
@@ -47,6 +64,16 @@ const Hero = () => {
       window.setTimeout(() => setShowSuccess(false), 6000);
     } catch (error) {
       console.error("Form submission error:", error);
+
+      /**
+       * ✅ If you still hit a 404 because of routing, you can soften it:
+       * Netlify may still have captured the submission even if SPA responded 404.
+       * If you want that behavior, uncomment this fallback:
+       */
+      // setShowSuccess(true);
+      // form.reset();
+      // window.setTimeout(() => setShowSuccess(false), 6000);
+
       alert("Error submitting form. Please try again.");
     } finally {
       setIsSubmitting(false);
@@ -64,7 +91,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
 
-        {/* ✅ Content over image */}
+        {/* Content */}
         <div className="relative z-10 mx-auto max-w-[1200px] px-4 pb-44 pt-16 sm:pt-20 lg:pb-56 lg:pt-24">
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
             {/* LEFT */}
@@ -108,9 +135,7 @@ const Hero = () => {
       {/* WHITE SECTION + FLOATING CARD */}
       <div className="bg-white">
         <div className="mx-auto max-w-[1200px] px-4">
-          {/* ✅ Negative margin pulls the card up over the hero */}
           <div className="-mt-20 pb-10 sm:-mt-24 lg:-mt-28 lg:pb-14">
-            {/* ✅ z-index ensures it sits above image/overlay */}
             <div
               id="quote"
               className="relative z-30 mx-auto max-w-[920px] rounded-[28px] border border-black/5 bg-white px-5 py-7 shadow-[0_14px_40px_rgba(0,0,0,0.18)] sm:px-8 sm:py-9"
@@ -129,21 +154,19 @@ const Hero = () => {
               <form
                 name={FORM_NAME}
                 method="POST"
+                action="/thanks/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
                 className="mx-auto mt-7 max-w-[760px]"
               >
-                {/* Netlify honeypot */}
                 <input type="hidden" name="bot-field" />
-                {/* ✅ IMPORTANT: must match the form name */}
                 <input type="hidden" name="form-name" value={FORM_NAME} />
 
-                {/* Optional: keep this hidden so Netlify shows it even if you don’t compute it */}
+                {/* Optional field so Netlify shows it nicely */}
                 <input type="hidden" name="fullName" value="" />
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-5">
-                  {/* Row 1 */}
                   <div>
                     <label className="sr-only" htmlFor="firstName">
                       First Name
@@ -172,7 +195,6 @@ const Hero = () => {
                     />
                   </div>
 
-                  {/* Row 2 */}
                   <div>
                     <label className="sr-only" htmlFor="phone">
                       Phone Number
@@ -201,7 +223,6 @@ const Hero = () => {
                     />
                   </div>
 
-                  {/* Row 3 */}
                   <div className="sm:col-span-2">
                     <label className="sr-only" htmlFor="suburb">
                       Suburb
@@ -215,7 +236,6 @@ const Hero = () => {
                     />
                   </div>
 
-                  {/* Row 4 */}
                   <div className="sm:col-span-2">
                     <label className="sr-only" htmlFor="issue">
                       What seems to be the issue?
