@@ -58,23 +58,23 @@ export const route = {
   element: <HomePage />,
   handle: {
     // Formato legacy (compatible con RouteMeta)
-    title: "Newcastle Local Roofers - Professional Roofing Services | 24/7 Emergency",
+    title: "Sydney Roofing & Gutters - Professional Roofing Services | 24/7 Emergency",
     meta: [
       { name: "description", content: "Professional roofing services in Newcastle and Hunter Region. Roof repairs, replacement, restoration, and emergency service. Licensed roofers available 24/7." },
       { name: "keywords", content: "roofing newcastle, roof repairs newcastle, roof replacement, emergency roof repairs, newcastle roofers, hunter region roofing" }
     ],
     // Nuevo formato (recomendado) - RouteMeta lo leerá automáticamente
     seo: {
-      title: "Newcastle Local Roofers - Professional Roofing Services | 24/7 Emergency",
+      title: "Sydney Roofing & Gutters - Professional Roofing Services | 24/7 Emergency",
       description: "Professional roofing services in Newcastle and Hunter Region. Roof repairs, replacement, restoration, and emergency service. Licensed roofers available 24/7. Free inspections.",
       keywords: "roofing newcastle, roof repairs newcastle, roof replacement, emergency roof repairs, newcastle roofers, hunter region roofing, roof restoration, licensed roofers nsw",
-      ogTitle: "Newcastle Local Roofers - Professional Roofing Services 24/7",
+      ogTitle: "Sydney Roofing & Gutters - Professional Roofing Services 24/7",
       ogDescription: "Expert roofing services across Newcastle and the Hunter Region. Emergency repairs, roof replacement, restoration, and inspections. Licensed & insured.",
       ogImage: "https://newcastlelocalroofers.com.au/images/roofing-services-newcastle.jpg",
       canonicalUrl: "/",
       schemaType: "RoofingContractor" as const,
       location: "newcastle" as const,
-      customName: "Newcastle Local Roofers",
+      customName: "Sydney Roofing & Gutters",
       customDescription: "Professional roofing services in Newcastle and Hunter Region with 24/7 emergency response"
     }
   }

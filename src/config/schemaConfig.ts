@@ -19,41 +19,41 @@ export const schemaConfig: PageSchemaConfig[] = [
   // Páginas principales
   {
     path: '/',
-    title: 'Newcastle Local Roofers - Professional Roofing Services | 24/7 Emergency',
+    title: 'Sydney Roofing & Gutters - Professional Roofing Services | 24/7 Emergency',
     description: '24/7 emergency roofing services in Newcastle, NSW. Expert roof repairs, replacements, restoration & installations. Call (02) 4089 4613 for immediate assistance.',
     keywords: 'newcastle roofers, roof repairs newcastle, emergency roof repairs, roof replacement newcastle, roof restoration, roofing contractors newcastle, nsw roofing',
-    ogTitle: 'Newcastle Local Roofers - 24/7 Emergency Roofing Services',
+    ogTitle: 'Sydney Roofing & Gutters - 24/7 Emergency Roofing Services',
     ogDescription: 'Trusted roofing specialists in Newcastle providing 24/7 emergency services. Expert repairs, replacements, and installations.',
     ogImage: 'https://newcastlelocalroofers.com.au/images/roofing-services-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Professional roofing contractor providing 24/7 emergency services in Newcastle, NSW'
   },
   {
     path: '/about-us',
-    title: 'About Newcastle Local Roofers - Expert Roofing Team',
-    description: 'Learn about Newcastle Local Roofers expert team. Professional roofing contractors specializing in repairs, replacements, and 24/7 emergency services across Newcastle.',
+    title: 'About Sydney Roofing & Gutters - Expert Roofing Team',
+    description: 'Learn about Sydney Roofing & Gutters expert team. Professional roofing contractors specializing in repairs, replacements, and 24/7 emergency services across Newcastle.',
     keywords: 'about newcastle roofers, roofing team newcastle, professional roofers, newcastle roofing company, licensed roofers nsw',
-    ogTitle: 'About Newcastle Local Roofers - Expert Roofing Team',
+    ogTitle: 'About Sydney Roofing & Gutters - Expert Roofing Team',
     ogDescription: 'Meet Newcastle\'s trusted roofing professionals. Quality workmanship and 24/7 emergency service.',
     ogImage: 'https://newcastlelocalroofers.com.au/images/roofing-team-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Newcastle\'s trusted roofing specialists providing professional services since establishment'
   },
   {
     path: '/contact-us',
-    title: 'Contact Newcastle Local Roofers - 24/7 Emergency Service',
-    description: 'Contact Newcastle Local Roofers for immediate assistance. Call (02) 4089 4613 for 24/7 emergency roofing services. Free quotes available.',
+    title: 'Contact Sydney Roofing & Gutters - 24/7 Emergency Service',
+    description: 'Contact Sydney Roofing & Gutters for immediate assistance. Call (02) 4089 4613 for 24/7 emergency roofing services. Free quotes available.',
     keywords: 'contact newcastle roofers, emergency roofing contact, roof repair quote, newcastle roofing contractor contact, 24/7 roofer',
-    ogTitle: 'Contact Newcastle Local Roofers - 24/7 Emergency',
+    ogTitle: 'Contact Sydney Roofing & Gutters - 24/7 Emergency',
     ogDescription: 'Get immediate roofing assistance. Call (02) 4089 4613 for 24/7 emergency service in Newcastle.',
     ogImage: 'https://newcastlelocalroofers.com.au/images/emergency-roofing-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Professional roofing services in Newcastle with 24/7 emergency response'
   },
   {
@@ -66,7 +66,7 @@ export const schemaConfig: PageSchemaConfig[] = [
     ogImage: 'https://newcastlelocalroofers.com.au/images/roofing-gallery-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Professional roofing services in Newcastle, NSW'
   },
   {
@@ -79,7 +79,7 @@ export const schemaConfig: PageSchemaConfig[] = [
     ogImage: 'https://newcastlelocalroofers.com.au/images/roofing-projects-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Professional roofing services in Newcastle, NSW'
   },
   {
@@ -92,7 +92,7 @@ export const schemaConfig: PageSchemaConfig[] = [
     ogImage: 'https://newcastlelocalroofers.com.au/images/roofing-blog-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Professional roofing services in Newcastle, NSW'
   },
 
@@ -213,15 +213,15 @@ export const schemaConfig: PageSchemaConfig[] = [
   // Página de ubicaciones
   {
     path: '/locations',
-    title: 'Service Areas | Newcastle Local Roofers Coverage',
-    description: 'Newcastle Local Roofers serves Newcastle and surrounding suburbs. Professional roofing services across the Hunter Region. Call (02) 4089 4613.',
+    title: 'Service Areas | Sydney Roofing & Gutters Coverage',
+    description: 'Sydney Roofing & Gutters serves Newcastle and surrounding suburbs. Professional roofing services across the Hunter Region. Call (02) 4089 4613.',
     keywords: 'newcastle roofers service areas, roofing newcastle suburbs, hunter region roofers, local roofers newcastle',
-    ogTitle: 'Service Areas | Newcastle Local Roofers',
+    ogTitle: 'Service Areas | Sydney Roofing & Gutters',
     ogDescription: 'Professional roofing services across Newcastle and surrounding suburbs in the Hunter Region.',
     ogImage: 'https://newcastlelocalroofers.com.au/images/service-areas-newcastle.jpg',
     schemaType: 'RoofingContractor',
     location: 'newcastle',
-    customName: 'Newcastle Local Roofers',
+    customName: 'Sydney Roofing & Gutters',
     customDescription: 'Professional roofing services across Newcastle and surrounding areas'
   }
 ];

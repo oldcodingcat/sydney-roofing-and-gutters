@@ -95,7 +95,7 @@ const generatePostContent = () => `
 const postData = {
   title: "Top Roof Trusses Newcastle: Expert Design & Installation Guide",
   excerpt: "Professional guide to roof trusses in Newcastle. Types, design, structural integrity, and when to replace.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-23",
   category: "Structure",
   tags: ["roof trusses", "roof structure", "truss design", "structural roofing"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof trusses newcastle, truss design, roof structure, structural roofing, truss installation, roof framing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

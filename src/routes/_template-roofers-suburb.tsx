@@ -101,7 +101,7 @@ const RoofersSuburbTemplate = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Roofers in [SUBURB_NAME] | 24/7 Emergency Service | Newcastle Local Roofers"
+        title="Roofers in [SUBURB_NAME] | 24/7 Emergency Service | Sydney Roofing & Gutters"
         description="Professional roofing services in [SUBURB_NAME], Newcastle. Emergency repairs, roof replacement, restoration. Licensed & insured. Call (02) 4089 4613 for free quote."
         keywords="roofers [SUBURB_NAME_LOWER], roofing [SUBURB_NAME_LOWER], roof repairs [SUBURB_NAME_LOWER], emergency roofer [SUBURB_NAME_LOWER], newcastle roofers"
         ogTitle="Roofers in [SUBURB_NAME] | 24/7 Emergency Service"
@@ -186,7 +186,7 @@ const RoofersSuburbTemplate = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in [SUBURB_NAME]?
+                Why Choose Sydney Roofing & Gutters in [SUBURB_NAME]?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -334,7 +334,7 @@ const RoofersSuburbTemplate = () => {
                 Our Roofing Solutions for [SUBURB_NAME]
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                At Newcastle Local Roofers, we provide comprehensive roofing solutions tailored to [SUBURB_NAME] properties. Our services include emergency repairs for storm damage, preventative maintenance to extend your roof's lifespan, complete roof replacements with modern materials, and roof restoration to improve both appearance and performance. All work is carried out by licensed professionals who understand the specific requirements of [SUBURB_NAME] homes.
+                At Sydney Roofing & Gutters, we provide comprehensive roofing solutions tailored to [SUBURB_NAME] properties. Our services include emergency repairs for storm damage, preventative maintenance to extend your roof's lifespan, complete roof replacements with modern materials, and roof restoration to improve both appearance and performance. All work is carried out by licensed professionals who understand the specific requirements of [SUBURB_NAME] homes.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

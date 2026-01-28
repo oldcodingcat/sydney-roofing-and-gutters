@@ -13,7 +13,7 @@ import { Calendar, User, Clock } from "lucide-react";
 const generatePostContent = () => `
     <p class="text-[#666666] leading-relaxed mb-6">Shingle roof installation represents one of the most popular roofing choices for Newcastle homeowners, offering exceptional versatility, aesthetic appeal, and reliable performance across diverse architectural styles. Asphalt composition shingles provide homeowners in Merewether, Hamilton, The Junction, Bar Beach, and throughout Newcastle with an outstanding balance of affordability, durability, and design flexibility. The professional installation process ensures optimal protection against Newcastle's coastal climate challenges, including high humidity, frequent rainfall, salt air exposure, and temperature variations that can compromise roof integrity over time.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Newcastle Local Roofers</a> provides expert solutions across Newcastle and the Hunter Region.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Sydney Roofing & Gutters</a> provides expert solutions across Newcastle and the Hunter Region.</p>
 
     <h2 class="text-3xl font-bold text-[#2C3E50] mt-12 mb-6">Professional Shingle Installation Process</h2>
 
@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Installation costs encompass labour requirements, material expenses, and project complexity factors. Labour costs typically range from $60-100 per square metre depending on roof accessibility and complexity, while material costs vary from $20-40 per square metre for standard shingles up to $80-120 per square metre for premium designer options. Professional assessment ensures accurate cost estimation considering Newcastle's specific climate requirements and long-term performance expectations that justify investment in quality installation.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert shingle roof installation services?</strong> Newcastle Local Roofers provides professional shingle installation throughout Newcastle and the Hunter Region. Our skilled team understands Newcastle's climate challenges and delivers superior installations that protect your investment. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our installation services, visit our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation page</a> to learn about our comprehensive roofing solutions. Let us help you protect your home with professional shingle installation.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert shingle roof installation services?</strong> Sydney Roofing & Gutters provides professional shingle installation throughout Newcastle and the Hunter Region. Our skilled team understands Newcastle's climate challenges and delivers superior installations that protect your investment. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our installation services, visit our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation page</a> to learn about our comprehensive roofing solutions. Let us help you protect your home with professional shingle installation.</p>
 `;
 
 const postData = {
   title: "Shingle Roof Installation Newcastle: Professional Guide",
   excerpt: "Expert guide to shingle roof installation in Newcastle. Process, materials, best practices, and professional installation standards.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-01",
   category: "Installation",
   tags: ["shingle installation", "asphalt shingles", "roof installation", "shingle roofing"],
@@ -108,7 +108,7 @@ const ShingleRoofInstallationPost = () => {
         keywords="shingle roof installation newcastle, asphalt shingles, shingle installation process, roofing installation"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

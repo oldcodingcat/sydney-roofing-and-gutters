@@ -81,13 +81,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Early detection of sheathing problems prevents costly structural damage and ensures continued protection for your Newcastle home. Professional inspection services can identify potential issues before they become major problems, while quality replacement materials and expert installation provide long-term structural integrity and weather protection throughout Newcastle's challenging climate conditions.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert sheathing installation or replacement services?</strong> Newcastle Local Roofers provides comprehensive sheathing services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect sheathing solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof replacement services, visit our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement page</a> to learn about our comprehensive structural solutions. Let us help you protect your investment with professional sheathing services.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert sheathing installation or replacement services?</strong> Sydney Roofing & Gutters provides comprehensive sheathing services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect sheathing solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof replacement services, visit our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement page</a> to learn about our comprehensive structural solutions. Let us help you protect your investment with professional sheathing services.</p>
 `;
 
 const postData = {
   title: "Quality Roof Sheathing Newcastle: Complete Installation Guide",
   excerpt: "Complete guide to roof sheathing in Newcastle. Best materials, installation, and structural support solutions.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-24",
   category: "Structure",
   tags: ["roof sheathing", "roof decking", "plywood roofing", "OSB roofing", "roof structure"],
@@ -106,7 +106,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof sheathing newcastle, roof decking, plywood roofing, OSB roofing, roof structure"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

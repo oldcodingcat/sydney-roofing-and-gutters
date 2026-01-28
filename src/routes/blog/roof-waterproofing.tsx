@@ -101,13 +101,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Preventing water damage through effective waterproofing can save thousands of dollars in repair costs and structural damage. Water infiltration can lead to mould growth, structural deterioration, and interior damage that requires expensive remediation. Professional waterproofing provides peace of mind and protects your most valuable asset - your home.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to protect your roof with professional waterproofing services?</strong> Newcastle Local Roofers provides comprehensive waterproofing services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect waterproofing solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our leak detection services, visit our <a href="/leak-detection" style="color: #3498DB; text-decoration: none; font-weight: 500;">leak detection page</a> to learn about our comprehensive waterproofing solutions. Let us help you protect your investment with professional waterproofing services.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to protect your roof with professional waterproofing services?</strong> Sydney Roofing & Gutters provides comprehensive waterproofing services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect waterproofing solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our leak detection services, visit our <a href="/leak-detection" style="color: #3498DB; text-decoration: none; font-weight: 500;">leak detection page</a> to learn about our comprehensive waterproofing solutions. Let us help you protect your investment with professional waterproofing services.</p>
 `;
 
 const postData = {
   title: "Roof Waterproofing Newcastle: Complete Protection Guide",
   excerpt: "Expert guide to roof waterproofing in Newcastle. Membranes, sealants, and systems for leak prevention.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-21",
   category: "Maintenance",
   tags: ["roof waterproofing", "leak prevention", "waterproof membranes", "roof protection"],
@@ -126,7 +126,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof waterproofing newcastle, waterproof membranes, leak prevention, roof sealants, flat roof waterproofing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -95,7 +95,7 @@ const generatePostContent = () => `
 const postData = {
   title: "Roof Maintenance Tips Newcastle: Expert Care Guide",
   excerpt: "Essential roof maintenance tips for Newcastle homes. Seasonal care, preventive maintenance, and professional services.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-26",
   category: "Maintenance",
   tags: ["roof maintenance", "maintenance tips", "roof care", "preventive maintenance"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof maintenance newcastle, maintenance tips, roof care, preventive maintenance, roof inspection tips"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -14,7 +14,7 @@ const BlogPage = () => {
       title: "Roof Wind Damage in Newcastle: Prevention & Emergency Response",
       excerpt: "Complete guide to understanding, preventing, and responding to roof wind damage in Newcastle and the Hunter Region. Learn what to do when strong winds affect your roof.",
       date: "December 19, 2024",
-      author: "Newcastle Local Roofers",
+      author: "Sydney Roofing & Gutters",
       category: "Emergency",
       image: "/images/emergency-roof-repairs-1.jpg",
       slug: "roof-wind-damage-newcastle"
@@ -80,15 +80,15 @@ const BlogPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHead 
-        title="Roofing Tips & Guides | Newcastle Local Roofers Blog"
+        title="Roofing Tips & Guides | Sydney Roofing & Gutters Blog"
         description="Expert roofing tips, maintenance guides, and industry insights from Newcastle's trusted roofing specialists. Learn about roof repairs, materials, costs, and emergency services."
         keywords="roofing tips newcastle, roof maintenance guide, roofing materials, roof repair advice, newcastle roofing blog, emergency roof repairs, roofing costs"
-        ogTitle="Roofing Tips & Guides | Newcastle Local Roofers Blog"
+        ogTitle="Roofing Tips & Guides | Sydney Roofing & Gutters Blog"
         ogDescription="Expert roofing advice and maintenance tips from Newcastle's professional roofing specialists. 24/7 emergency service available."
         ogImage="https://newcastlelocalroofers.com.au/images/roof-repairs-newcastle.jpg"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle and Hunter Region - Expert tips and guides"
       />
       <Header />
@@ -203,7 +203,7 @@ export const route = {
   path: "/blog/",
   element: <BlogPage />,
   handle: {
-    title: "Roofing Tips & Guides | Newcastle Local Roofers Blog",
+    title: "Roofing Tips & Guides | Sydney Roofing & Gutters Blog",
     meta: [
       { name: "description", content: "Expert roofing tips, maintenance guides, and industry insights from Newcastle's trusted roofing specialists. Learn about roof repairs, materials, costs, and emergency services." },
       { name: "keywords", content: "roofing tips newcastle, roof maintenance guide, roofing materials, roof repair advice, newcastle roofing blog, emergency roof repairs, roofing costs" }

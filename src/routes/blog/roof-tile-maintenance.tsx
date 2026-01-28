@@ -95,7 +95,7 @@ const generatePostContent = () => `
 const postData = {
   title: "Roof Tile Maintenance Newcastle: Essential Care Guide",
   excerpt: "Complete guide to roof tile maintenance in Newcastle. Cleaning, inspection, repairs, and seasonal care tips.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-25",
   category: "Maintenance",
   tags: ["tile maintenance", "roof care", "tile cleaning", "roof inspection"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof tile maintenance newcastle, tile cleaning, roof care, tile repair, roof inspection newcastle"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

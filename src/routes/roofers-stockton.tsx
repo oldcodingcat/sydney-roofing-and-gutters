@@ -235,7 +235,7 @@ const RoofersStockton = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Stockton?
+                Why Choose Sydney Roofing & Gutters in Stockton?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ const RoofersStockton = () => {
                 Specialized Peninsula Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers delivers expert peninsula roofing for Stockton's challenging environment. Our services include dual-exposure marine-grade materials, enhanced ventilation for sand management, reinforced fixings for multi-directional wind loads, specialized flashing for saltwater exposure, and comprehensive corrosion protection systems. We understand Stockton's unique peninsula microclimate.
+                Sydney Roofing & Gutters delivers expert peninsula roofing for Stockton's challenging environment. Our services include dual-exposure marine-grade materials, enhanced ventilation for sand management, reinforced fixings for multi-directional wind loads, specialized flashing for saltwater exposure, and comprehensive corrosion protection systems. We understand Stockton's unique peninsula microclimate.
               </p>
 
               <h3 className="text-xl font-semibold text-primary mb-4">

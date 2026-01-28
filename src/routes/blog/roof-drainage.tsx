@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Professional maintenance services help identify potential issues before they cause significant damage, while proper care extends system lifespan and ensures continued protection for your Newcastle home. Investment in quality drainage systems and regular maintenance provides excellent value by preventing costly water damage and maintaining your home's structural integrity throughout Newcastle's challenging weather conditions.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional drainage installation or maintenance services?</strong> Newcastle Local Roofers provides comprehensive drainage services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect drainage solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our gutter services, visit our <a href="/gutter-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">gutter repairs page</a> to learn about our comprehensive drainage solutions. Let us help you protect your investment with professional drainage services.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional drainage installation or maintenance services?</strong> Sydney Roofing & Gutters provides comprehensive drainage services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect drainage solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our gutter services, visit our <a href="/gutter-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">gutter repairs page</a> to learn about our comprehensive drainage solutions. Let us help you protect your investment with professional drainage services.</p>
 `;
 
 const postData = {
   title: "Professional Roof Drainage Newcastle: Essential Systems Guide",
   excerpt: "Complete guide to roof drainage systems in Newcastle. Gutters, downpipes, and water management solutions.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-24",
   category: "Maintenance",
   tags: ["roof drainage", "gutters", "downpipes", "water management", "roof guttering"],
@@ -108,7 +108,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof drainage newcastle, gutters newcastle, downpipes, water management, roof guttering"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

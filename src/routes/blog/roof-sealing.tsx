@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Roof sealing costs vary significantly based on roof size, access difficulty, surface preparation requirements, and sealant type selection, typically ranging from $15-35 per square metre for quality professional application. Premium sealant systems may cost more initially but provide superior longevity and performance that reduces long-term maintenance expenses. Professional sealing investment delivers excellent value by preventing costly leak repairs, extending roof lifespan, and maintaining property values throughout Newcastle's demanding coastal environment where untreated roofs deteriorate rapidly.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert roof sealing services for your Newcastle home?</strong> Newcastle Local Roofers provides comprehensive sealing solutions throughout the Hunter Region. Our experienced team understands Newcastle's unique coastal challenges and can recommend the perfect sealing system for your roof's specific requirements and environmental conditions. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional assessment. For comprehensive information about our restoration services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to discover how professional sealing can transform and protect your Newcastle home's most valuable asset.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert roof sealing services for your Newcastle home?</strong> Sydney Roofing & Gutters provides comprehensive sealing solutions throughout the Hunter Region. Our experienced team understands Newcastle's unique coastal challenges and can recommend the perfect sealing system for your roof's specific requirements and environmental conditions. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional assessment. For comprehensive information about our restoration services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to discover how professional sealing can transform and protect your Newcastle home's most valuable asset.</p>
 `;
 
 const postData = {
   title: "Roof Sealing Newcastle: Expert Sealing Services Guide",
   excerpt: "Complete guide to roof sealing in Newcastle. Professional methods, sealant types, and coastal protection benefits.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-28",
   category: "Maintenance",
   tags: ["roof sealing", "sealant types", "roof protection", "roof coating"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof sealing newcastle, roof sealant, roof coating, silicone sealing, acrylic sealing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

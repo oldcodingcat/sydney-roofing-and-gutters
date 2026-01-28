@@ -12,14 +12,14 @@ const AboutUsPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHead 
-        title="About Newcastle Local Roofers - Expert Roofing Team | 12+ Years Experience"
-        description="Learn about Newcastle Local Roofers' expert team and 12+ years of roofing excellence. Licensed contractors delivering quality roofing services across Newcastle and Hunter Region since 2012."
+        title="About Sydney Roofing & Gutters - Expert Roofing Team | 12+ Years Experience"
+        description="Learn about Sydney Roofing & Gutters' expert team and 12+ years of roofing excellence. Licensed contractors delivering quality roofing services across Newcastle and Hunter Region since 2012."
         keywords="about newcastle roofers, roofing team newcastle, licensed roofers, newcastle roofing company, professional roofers hunter region"
-        ogTitle="About Newcastle Local Roofers - Expert Roofing Team"
+        ogTitle="About Sydney Roofing & Gutters - Expert Roofing Team"
         ogDescription="Meet Newcastle's premier roofing specialists. 12+ years of quality craftsmanship and 1000+ satisfied customers."
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Newcastle's trusted roofing specialists providing professional services since 2012"
       />
       <Header />
@@ -31,7 +31,7 @@ const AboutUsPage = () => {
           <div className="text-center text-white">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
             <h1 className="text-4xl md:text-5xl font-bold architectural-heading mb-6">
-              About Newcastle Local Roofers
+              About Sydney Roofing & Gutters
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Newcastle's trusted roofing specialists, delivering expert roof repairs, 
@@ -50,7 +50,7 @@ const AboutUsPage = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 leading-relaxed" style={{color: '#666666'}}>
                 <p>
-                  Founded in 2012 by a team of licensed roofing contractors, Newcastle Local Roofers 
+                  Founded in 2012 by a team of licensed roofing contractors, Sydney Roofing & Gutters 
                   was established to provide Newcastle homeowners with reliable, high-quality roofing 
                   services backed by 24/7 emergency response. We understand that roof problems don't 
                   wait for business hours.
@@ -73,7 +73,7 @@ const AboutUsPage = () => {
             <div className="relative">
               <img 
                 src={teamImage} 
-                alt="Newcastle Local Roofers professional team of licensed roofing contractors"
+                alt="Sydney Roofing & Gutters professional team of licensed roofing contractors"
                 className="rounded-lg shadow-lg"
               />
               <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground p-6 rounded-lg shadow-lg">
@@ -273,9 +273,9 @@ export const route = {
   path: "/about-us/",
   element: <AboutUsPage />,
   handle: {
-    title: "About Newcastle Local Roofers - Expert Roofing Team | 12+ Years Experience",
+    title: "About Sydney Roofing & Gutters - Expert Roofing Team | 12+ Years Experience",
     meta: [
-      { name: "description", content: "Learn about Newcastle Local Roofers' expert team and 12+ years of roofing excellence. Licensed contractors delivering quality roofing services across Newcastle and Hunter Region since 2012." },
+      { name: "description", content: "Learn about Sydney Roofing & Gutters' expert team and 12+ years of roofing excellence. Licensed contractors delivering quality roofing services across Newcastle and Hunter Region since 2012." },
       { name: "keywords", content: "about newcastle roofers, roofing team newcastle, licensed roofers, newcastle roofing company, professional roofers hunter region" }
     ]
   }

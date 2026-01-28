@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Heritage compliance costs include approval applications, documentation requirements, material sampling, and specialist consultation ensuring regulatory compliance throughout the project. While initial investment appears significant, quality lead parapet wall installation provides exceptional longevity exceeding seventy years when properly maintained, representing excellent value considering heritage preservation and long-term protection for Newcastle's historic architecture.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert lead parapet wall installation for your heritage property?</strong> Newcastle Local Roofers provides specialist lead work throughout Newcastle and the Hunter Region. Our experienced team understands heritage compliance requirements and traditional techniques ensuring authentic preservation. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our heritage services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive preservation solutions. Let us help protect your heritage property with professional lead parapet installation.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert lead parapet wall installation for your heritage property?</strong> Sydney Roofing & Gutters provides specialist lead work throughout Newcastle and the Hunter Region. Our experienced team understands heritage compliance requirements and traditional techniques ensuring authentic preservation. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our heritage services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive preservation solutions. Let us help protect your heritage property with professional lead parapet installation.</p>
 `;
 
 const postData = {
   title: "Roof with Lead Parapet Walls Newcastle: Heritage Guide",
   excerpt: "Expert guide to lead parapet wall roofing in Newcastle. Heritage installation, compliance, maintenance, and specialist services.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-01",
   category: "Heritage",
   tags: ["lead parapet walls", "heritage roofing", "lead roofing", "parapet walls"],
@@ -108,7 +108,7 @@ const RoofWithLeadParapetWallsPost = () => {
         keywords="lead parapet walls newcastle, heritage roofing, lead roofing, parapet wall installation, heritage buildings"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

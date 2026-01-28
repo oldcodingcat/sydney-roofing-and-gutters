@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Local contractors possess intimate knowledge of Newcastle's unique climate challenges, building regulations, and material performance requirements essential for long-term roofing success. Understanding salt air corrosion, coastal wind patterns, and humidity variations enables proper material selection and installation techniques. Established relationships with Newcastle Council ensure efficient permit processing and compliance with local building codes. Rapid response capabilities provide essential emergency services during storms and unexpected damage situations common in coastal environments.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to select the perfect roofing contractor for your Newcastle home?</strong> Newcastle Local Roofers combines extensive local experience with proven expertise throughout the Hunter Region. Our licensed team understands Newcastle's unique climate challenges and provides comprehensive contractor services with transparent pricing and quality guarantees. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert contractor selection guidance, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a consultation. Learn more about our professional services on our <a href="/about-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">about us page</a> to discover why Newcastle homeowners trust our expertise.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to select the perfect roofing contractor for your Newcastle home?</strong> Sydney Roofing & Gutters combines extensive local experience with proven expertise throughout the Hunter Region. Our licensed team understands Newcastle's unique climate challenges and provides comprehensive contractor services with transparent pricing and quality guarantees. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert contractor selection guidance, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a consultation. Learn more about our professional services on our <a href="/about-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">about us page</a> to discover why Newcastle homeowners trust our expertise.</p>
 `;
 
 const postData = {
   title: "Roofing Contractors Newcastle: Complete Selection Guide",
   excerpt: "Expert guide to choosing roofing contractors in Newcastle. Licensing, experience, quotes, and local expertise considerations.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-30",
   category: "Contractors",
   tags: ["roofing contractors", "contractor selection", "licensed roofers", "professional roofers"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roofing contractors newcastle, licensed roofers, roofing companies, professional roofers newcastle, contractor selection"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

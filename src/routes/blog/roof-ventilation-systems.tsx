@@ -101,13 +101,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Energy savings from proper roof ventilation can significantly offset installation costs over time. These systems reduce cooling costs by removing hot air in summer and prevent moisture damage that can lead to expensive repairs. The energy savings, combined with improved comfort and extended roof life, make ventilation systems an excellent investment for Newcastle homeowners seeking to optimize their home's performance.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to improve your home's ventilation with professional roof ventilation services?</strong> Newcastle Local Roofers provides comprehensive ventilation services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect ventilation solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof inspection services, visit our <a href="/roof-inspections" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof inspections page</a> to learn about our comprehensive roofing solutions. Let us help you optimize your home's comfort and efficiency with professional ventilation systems.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to improve your home's ventilation with professional roof ventilation services?</strong> Sydney Roofing & Gutters provides comprehensive ventilation services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect ventilation solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof inspection services, visit our <a href="/roof-inspections" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof inspections page</a> to learn about our comprehensive roofing solutions. Let us help you optimize your home's comfort and efficiency with professional ventilation systems.</p>
 `;
 
 const postData = {
   title: "Roof Ventilation Systems Newcastle: Complete Guide",
   excerpt: "Expert guide to roof ventilation in Newcastle. Whirlybirds, ridge vents, and exhaust fans for optimal airflow.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-22",
   category: "Installation",
   tags: ["roof ventilation", "whirlybirds", "ridge vents", "roof airflow"],
@@ -126,7 +126,7 @@ const RoofVentilationSystemsPost = () => {
         keywords="roof ventilation newcastle, whirlybirds, ridge vents, roof airflow, exhaust fans, roof ventilation installation"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

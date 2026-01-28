@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Longevity ROI exceeds standard roofing materials through 100-plus year lifespan that minimizes replacement frequency and long-term ownership costs despite higher initial investment. Property value enhancement typically exceeds additional installation costs through SVK slate's premium aesthetic and reputation for exceptional quality, creating positive equity impacts for Newcastle homeowners in competitive property markets. Premium SVK slate represents excellent long-term investment value for Newcastle properties demanding superior roofing solutions.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert SVK slate roofing for your Newcastle home?</strong> Newcastle Local Roofers provides premium SVK slate installation throughout Newcastle and the Hunter Region. Our experienced team delivers exceptional craftsmanship ensuring your investment provides decades of superior protection. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our premium services, visit our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation page</a> to learn about our comprehensive roofing solutions. Let us help you invest in premium SVK slate roofing.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert SVK slate roofing for your Newcastle home?</strong> Sydney Roofing & Gutters provides premium SVK slate installation throughout Newcastle and the Hunter Region. Our experienced team delivers exceptional craftsmanship ensuring your investment provides decades of superior protection. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our premium services, visit our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation page</a> to learn about our comprehensive roofing solutions. Let us help you invest in premium SVK slate roofing.</p>
 `;
 
 const postData = {
   title: "SVK Slate Roof Newcastle: Premium Roofing Guide",
   excerpt: "Expert guide to SVK slate roofing in Newcastle. Premium quality, installation process, design options, and investment value.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-02",
   category: "Premium",
   tags: ["SVK slate", "slate roofing", "premium roofing", "Slovakian slate"],
@@ -108,7 +108,7 @@ const SVKSlateRoofPost = () => {
         keywords="SVK slate roof newcastle, Slovakian slate, premium slate roofing, slate installation, quality slate"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

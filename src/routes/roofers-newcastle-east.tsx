@@ -164,7 +164,7 @@ const RoofersNewcastleEast = () => {
               </h2>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers is the trusted choice for period-correct restoration and conservation works across Newcastle East's historic headland homes. Our licensed team combines traditional craftsmanship with modern protection systems to preserve original character while delivering long-term performance in coastal conditions.
+                Sydney Roofing & Gutters is the trusted choice for period-correct restoration and conservation works across Newcastle East's historic headland homes. Our licensed team combines traditional craftsmanship with modern protection systems to preserve original character while delivering long-term performance in coastal conditions.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -235,7 +235,7 @@ const RoofersNewcastleEast = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Newcastle East?
+                Why Choose Sydney Roofing & Gutters in Newcastle East?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ const RoofersNewcastleEast = () => {
                 Expert Heritage Roofing Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers delivers specialized heritage roofing for Newcastle East's historic properties. Our master craftsmen provide authentic slate roof restoration, traditional terracotta tile repairs, Victorian iron roof conservation, marine-grade materials in period styles, and heritage-approved modern weatherproofing. We understand both conservation requirements and coastal protection needs.
+                Sydney Roofing & Gutters delivers specialized heritage roofing for Newcastle East's historic properties. Our master craftsmen provide authentic slate roof restoration, traditional terracotta tile repairs, Victorian iron roof conservation, marine-grade materials in period styles, and heritage-approved modern weatherproofing. We understand both conservation requirements and coastal protection needs.
               </p>
 
               <h3 className="text-xl font-semibold text-primary mb-4">

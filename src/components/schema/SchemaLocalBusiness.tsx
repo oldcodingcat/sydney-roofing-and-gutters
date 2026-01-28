@@ -32,7 +32,7 @@ interface SchemaLocalBusinessProps {
 }
 
 export default function SchemaLocalBusiness({
-  name = "Newcastle Local Roofers",
+  name = "Sydney Roofing & Gutters",
   description = "Professional roofing services in Newcastle and Hunter Region. Emergency repairs, roof replacement, restoration, and maintenance by licensed contractors available 24/7.",
   image = "https://newcastlelocalroofers.com.au/images/newcastle-local-roofers-logo.png",
   telephone = "+61-2-4089-4613",

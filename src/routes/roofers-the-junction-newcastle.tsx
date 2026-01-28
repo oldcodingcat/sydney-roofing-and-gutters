@@ -235,7 +235,7 @@ const RoofersTheJunctionNewcastle = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in The Junction?
+                Why Choose Sydney Roofing & Gutters in The Junction?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ const RoofersTheJunctionNewcastle = () => {
                 Boutique Roofing Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers delivers tailored roofing for The Junction's diverse properties. Our services include coastal-rated modern installations, heritage cottage restoration, boutique renovation roofing, salt-resistant material selection, and aesthetic designs matching The Junction's character. We understand this suburb's unique blend of beach lifestyle and urban sophistication.
+                Sydney Roofing & Gutters delivers tailored roofing for The Junction's diverse properties. Our services include coastal-rated modern installations, heritage cottage restoration, boutique renovation roofing, salt-resistant material selection, and aesthetic designs matching The Junction's character. We understand this suburb's unique blend of beach lifestyle and urban sophistication.
               </p>
 
               <h3 className="text-xl font-semibold text-primary mb-4">

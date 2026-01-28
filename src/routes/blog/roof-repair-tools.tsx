@@ -95,7 +95,7 @@ const generatePostContent = () => `
 const postData = {
   title: "Roof Repair Tools Newcastle: Professional Equipment Guide",
   excerpt: "Complete guide to roof repair tools and equipment. Professional tools, safety gear, and quality recommendations.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-26",
   category: "Tools",
   tags: ["roof repair tools", "roofing equipment", "safety gear", "professional tools"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof repair tools newcastle, roofing equipment, safety gear, professional tools, roofing tools"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -164,7 +164,7 @@ const RoofersTheHillNewcastle = () => {
               </h2>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers is the trusted choice for heritage roof restoration across The Hill's iconic Victorian terraces. Our licensed craftsmen combine traditional techniques with modern weather protection to preserve architectural character while ensuring elevated properties meet contemporary performance standards.
+                Sydney Roofing & Gutters is the trusted choice for heritage roof restoration across The Hill's iconic Victorian terraces. Our licensed craftsmen combine traditional techniques with modern weather protection to preserve architectural character while ensuring elevated properties meet contemporary performance standards.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -235,7 +235,7 @@ const RoofersTheHillNewcastle = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in The Hill?
+                Why Choose Sydney Roofing & Gutters in The Hill?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ const RoofersTheHillNewcastle = () => {
                 Heritage Restoration Expertise
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers provides specialized heritage roofing for The Hill's Victorian properties. Our craftsmen deliver authentic slate roof restoration, period terracotta tile repairs, Victorian iron roof conservation, wind-rated heritage fixings, and concealed modern reinforcement systems. We understand both heritage preservation and elevated exposure requirements.
+                Sydney Roofing & Gutters provides specialized heritage roofing for The Hill's Victorian properties. Our craftsmen deliver authentic slate roof restoration, period terracotta tile repairs, Victorian iron roof conservation, wind-rated heritage fixings, and concealed modern reinforcement systems. We understand both heritage preservation and elevated exposure requirements.
               </p>
 
               <h3 className="text-xl font-semibold text-primary mb-4">

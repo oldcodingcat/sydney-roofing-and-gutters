@@ -156,7 +156,7 @@ const RoofersMerewether = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been delivering exceptional roofing solutions to Merewether's prestigious beachside properties for over 15 years. Our team specializes in premium coastal installations using marine-grade materials designed to withstand the harsh beachside environment.
+                Sydney Roofing & Gutters has been delivering exceptional roofing solutions to Merewether's prestigious beachside properties for over 15 years. Our team specializes in premium coastal installations using marine-grade materials designed to withstand the harsh beachside environment.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersMerewether = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Merewether?
+                Why Choose Sydney Roofing & Gutters in Merewether?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -404,7 +404,7 @@ const RoofersMerewether = () => {
                 Premium Roofing for Merewether
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers delivers specialized coastal roofing for Merewether properties. We use marine-grade Colorbond, premium tile systems with enhanced wind ratings, UV-resistant coatings, and corrosion-proof fixings throughout. Every installation considers the harsh beachside environment.
+                Sydney Roofing & Gutters delivers specialized coastal roofing for Merewether properties. We use marine-grade Colorbond, premium tile systems with enhanced wind ratings, UV-resistant coatings, and corrosion-proof fixings throughout. Every installation considers the harsh beachside environment.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

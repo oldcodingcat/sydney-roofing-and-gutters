@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Regular fascia maintenance prevents costly replacement while extending service life and maintaining protective functions. Annual inspections should focus on paint condition, fastener security, and signs of moisture damage or pest activity that commonly affect Newcastle homes. Common problems include paint deterioration, loose gutters, rot in timber fascia, and corrosion in metal components, all requiring prompt attention to prevent escalation into major structural issues requiring extensive repairs and higher costs.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert fascia board replacement or repair services?</strong> Newcastle Local Roofers provides comprehensive fascia solutions throughout the Hunter Region. Our experienced team delivers quality materials and professional installation that withstands Newcastle's challenging coastal environment while enhancing your home's protection and appearance. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your fascia consultation. Explore our comprehensive roofing services through our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement page</a> for complete roofing system upgrades and protection solutions.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert fascia board replacement or repair services?</strong> Sydney Roofing & Gutters provides comprehensive fascia solutions throughout the Hunter Region. Our experienced team delivers quality materials and professional installation that withstands Newcastle's challenging coastal environment while enhancing your home's protection and appearance. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your fascia consultation. Explore our comprehensive roofing services through our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement page</a> for complete roofing system upgrades and protection solutions.</p>
 `;
 
 const postData = {
   title: "Roof Fascia Board Newcastle: Complete Replacement Guide",
   excerpt: "Expert guide to roof fascia boards in Newcastle. Materials, installation, maintenance, and coastal protection.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-30",
   category: "Components",
   tags: ["fascia board", "fascia replacement", "roof trim", "gutter support"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof fascia board newcastle, fascia replacement, fascia repair, roof trim, gutter board"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -89,13 +89,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Investment in quality ventilation installation provides long-term returns through reduced energy costs, extended roof life, and improved home comfort. Professional installation includes warranties covering both materials and workmanship, providing peace of mind and protection for your ventilation investment. Timely installation prevents moisture-related issues that could result in costly repairs or health concerns.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert roof vent installation services?</strong> Newcastle Local Roofers provides professional ventilation solutions throughout the Hunter Region. Our experienced team understands Newcastle's unique coastal ventilation requirements and can design optimal airflow systems for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free ventilation assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule installation. For more information about our ventilation services, visit our <a href="/roof-ventilation-systems" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof ventilation systems page</a> to explore our comprehensive airflow solutions.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert roof vent installation services?</strong> Sydney Roofing & Gutters provides professional ventilation solutions throughout the Hunter Region. Our experienced team understands Newcastle's unique coastal ventilation requirements and can design optimal airflow systems for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free ventilation assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule installation. For more information about our ventilation services, visit our <a href="/roof-ventilation-systems" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof ventilation systems page</a> to explore our comprehensive airflow solutions.</p>
 `;
 
 const postData = {
   title: "Roof Vent Installation Newcastle: Professional Guide",
   excerpt: "Expert guide to roof vent installation in Newcastle. Types, process, costs, and ventilation requirements.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-26",
   category: "Installation",
   tags: ["roof vents", "vent installation", "whirlybirds", "roof ventilation"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof vent installation newcastle, whirlybirds, ridge vents, roof ventilation installation, vent types"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

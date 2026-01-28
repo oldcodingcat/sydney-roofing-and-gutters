@@ -95,7 +95,7 @@ const generatePostContent = () => `
 const postData = {
   title: "Roofing Material Costs Newcastle: Complete Price Guide 2024",
   excerpt: "Complete guide to roofing material costs in Newcastle. Metal, tile, Colorbond prices and budget planning.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-25",
   category: "Costs",
   tags: ["roofing costs", "material prices", "roofing budget", "colorbond prices"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roofing material costs newcastle, roof prices, colorbond costs, tile roofing prices, metal roof costs"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -247,25 +247,59 @@ function HeroWithForm({ cfg, content }: { cfg: ServiceSEOConfig; content: Servic
             </div>
           </div>
 
-          <form className="px-6 pb-6">
+          <form
+            name="Bottom form"
+            className="px-6 pb-6"
+            onSubmit={(e) => e.preventDefault()}
+            netlify
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input className="h-11 rounded-md border px-4" placeholder="First Name" />
-              <input className="h-11 rounded-md border px-4" placeholder="Last Name" />
-              <input className="h-11 rounded-md border px-4" placeholder="Phone Number" />
-              <input className="h-11 rounded-md border px-4" placeholder="Email Address" />
-              <input className="h-11 rounded-md border px-4 md:col-span-2" placeholder="Suburb" />
+              <input
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+                className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
+              />
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+                className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone Number"
+                className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
+              />
+              <input
+                type="text"
+                name="suburb"
+                placeholder="Suburb"
+                className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400 md:col-span-2"
+              />
               <textarea
-                className="min-h-[110px] rounded-md border px-4 py-3 md:col-span-2"
+                name="message"
                 placeholder="What seems to be the issue?"
+                className="min-h-[110px] rounded-md border border-gray-300 bg-white px-4 py-3 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400 md:col-span-2"
               />
             </div>
 
-            <Button type="button" className="w-full mt-5 h-11 rounded-md">
-              <span className="inline-flex items-center gap-2">
+            <button
+              type="submit"
+              className="w-full mt-5 h-11 rounded-md bg-[#169fc3] text-center font-semibold tracking-wide text-white shadow-sm transition-colors hover:bg-[#0f8eae]"
+            >
+              <span className="inline-flex items-center justify-center gap-2">
                 <Send className="h-4 w-4" />
                 GET QUOTE
               </span>
-            </Button>
+            </button>
           </form>
         </div>
       </div>

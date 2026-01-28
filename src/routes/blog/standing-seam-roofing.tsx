@@ -216,7 +216,7 @@ const PostContent = () => (
       </ul>
     </div>
 
-    <p className="text-[#666666] leading-relaxed mb-6"><strong>Ready to transform your Newcastle home with standing seam metal roofing?</strong> Newcastle Local Roofers specializes in premium metal roofing installations throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect standing seam system for your home. Call us at <a href="tel:0240894613" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>contact page</a> to schedule a professional assessment. For more information about our metal roofing services, visit our <a href="/metal-roofing" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>metal roofing page</a> to learn more about our comprehensive metal roofing solutions. Let us help you invest in a roofing system that will protect and enhance your home for decades to come.</p>
+    <p className="text-[#666666] leading-relaxed mb-6"><strong>Ready to transform your Newcastle home with standing seam metal roofing?</strong> Sydney Roofing & Gutters specializes in premium metal roofing installations throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect standing seam system for your home. Call us at <a href="tel:0240894613" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>contact page</a> to schedule a professional assessment. For more information about our metal roofing services, visit our <a href="/metal-roofing" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>metal roofing page</a> to learn more about our comprehensive metal roofing solutions. Let us help you invest in a roofing system that will protect and enhance your home for decades to come.</p>
   </>
 );
 
@@ -426,13 +426,13 @@ const generatePostContent = () => `
       </ul>
     </div>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to transform your Newcastle home with standing seam metal roofing?</strong> Newcastle Local Roofers specializes in premium metal roofing installations throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect standing seam system for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional assessment. For more information about our metal roofing services, visit our <a href="/metal-roofing" style="color: #3498DB; text-decoration: none; font-weight: 500;">metal roofing page</a> to learn more about our comprehensive metal roofing solutions. Let us help you invest in a roofing system that will protect and enhance your home for decades to come.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to transform your Newcastle home with standing seam metal roofing?</strong> Sydney Roofing & Gutters specializes in premium metal roofing installations throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect standing seam system for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional assessment. For more information about our metal roofing services, visit our <a href="/metal-roofing" style="color: #3498DB; text-decoration: none; font-weight: 500;">metal roofing page</a> to learn more about our comprehensive metal roofing solutions. Let us help you invest in a roofing system that will protect and enhance your home for decades to come.</p>
 `;
 
 const postData = {
   title: "Standing Seam Roofing Newcastle: Complete Guide & Benefits",
   excerpt: "Complete guide to standing seam metal roofing in Newcastle. Benefits, costs, installation for coastal homes.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-19",
   category: "Materials",
   tags: ["standing seam roofing", "metal roofing", "roof materials"],
@@ -451,7 +451,7 @@ const StandingSeamRoofingPost = () => {
         keywords="standing seam roofing, metal roofing newcastle, modern roofing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

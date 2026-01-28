@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Regular soffit maintenance prevents common problems while extending system lifespan and performance. Recommended inspection schedules include biannual assessments of ventilation function, material condition, and mounting integrity, with particular attention to salt air damage and storm-related impacts. Common issues include blocked ventilation openings, loose or damaged panels, and pest intrusion that compromise system effectiveness and require prompt professional attention.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional soffit installation or repair services?</strong> Newcastle Local Roofers delivers comprehensive soffit solutions throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and provides quality materials and installation for optimal ventilation and protection. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your soffit assessment. Learn more about our complete eave solutions through our <a href="/roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof repair services</a> for comprehensive roof system maintenance and enhancement.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional soffit installation or repair services?</strong> Sydney Roofing & Gutters delivers comprehensive soffit solutions throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and provides quality materials and installation for optimal ventilation and protection. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your soffit assessment. Learn more about our complete eave solutions through our <a href="/roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof repair services</a> for comprehensive roof system maintenance and enhancement.</p>
 `;
 
 const postData = {
   title: "Roof Soffits Newcastle: Complete Installation & Repair Guide",
   excerpt: "Complete guide to roof soffits in Newcastle. Types, ventilation benefits, installation, and maintenance for optimal performance.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-29",
   category: "Components",
   tags: ["roof soffits", "soffit installation", "roof ventilation", "eaves"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof soffits newcastle, soffit installation, eaves repair, roof ventilation, soffit replacement"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

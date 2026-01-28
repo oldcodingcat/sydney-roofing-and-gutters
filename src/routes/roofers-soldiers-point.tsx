@@ -235,7 +235,7 @@ const RoofersSoldiersPoint = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Soldiers Point?
+                Why Choose Sydney Roofing & Gutters in Soldiers Point?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ const RoofersSoldiersPoint = () => {
                 Premium Waterfront Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers provides specialized waterfront roofing for Soldiers Point properties. We deliver marina-grade corrosion protection, holiday home maintenance programs, permanent residence installations, bay-appropriate material selection, and resort-quality finishing standards. Our team understands both seasonal property challenges and premium waterfront living requirements.
+                Sydney Roofing & Gutters provides specialized waterfront roofing for Soldiers Point properties. We deliver marina-grade corrosion protection, holiday home maintenance programs, permanent residence installations, bay-appropriate material selection, and resort-quality finishing standards. Our team understands both seasonal property challenges and premium waterfront living requirements.
               </p>
 
               <h3 className="text-xl font-semibold text-primary mb-4">

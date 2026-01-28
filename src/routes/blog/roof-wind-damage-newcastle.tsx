@@ -55,7 +55,7 @@ const PostContent = () => (
     <p className="text-[#666666] leading-relaxed mb-6">Take clear photos and videos of all visible damage from ground level, including multiple angles of each damaged area. Document the time and date of photos, and include wide shots that show the overall condition of your roof. This documentation is essential for insurance claims and will help roofing professionals assess the extent of damage. Take photos of any debris on the ground, as this can provide valuable information about the source and extent of damage.</p>
 
     <h3 className="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Contact Emergency Services</h3>
-    <p className="text-[#666666] leading-relaxed mb-6">Contact Newcastle Local Roofers at (02) 4089 4613 for immediate emergency assessment and temporary repairs. Our 24/7 emergency service is specifically designed to respond quickly to wind damage situations. We can provide temporary protective measures to prevent further damage while you wait for permanent repairs. Emergency services are particularly important during storm season when multiple properties may be affected.</p>
+    <p className="text-[#666666] leading-relaxed mb-6">Contact Sydney Roofing & Gutters at (02) 4089 4613 for immediate emergency assessment and temporary repairs. Our 24/7 emergency service is specifically designed to respond quickly to wind damage situations. We can provide temporary protective measures to prevent further damage while you wait for permanent repairs. Emergency services are particularly important during storm season when multiple properties may be affected.</p>
 
     <h3 className="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Temporary Protection Measures</h3>
     <p className="text-[#666666] leading-relaxed mb-6">If safe to do so, place buckets or tarps under any visible leaks to prevent water damage to your home's interior. Use heavy-duty tarps secured with ropes or weights to cover damaged areas, but never attempt to climb onto the roof yourself. These temporary measures can significantly reduce additional damage while waiting for professional repairs. Ensure all temporary measures are properly secured to prevent them from becoming hazards in continued windy conditions.</p>
@@ -192,7 +192,7 @@ const PostContent = () => (
     </ul>
 
     <h3 className="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Storm Preparation for Homeowners</h3>
-    <p className="text-[#666666] leading-relaxed mb-6">When severe weather is forecast, take proactive steps to protect your roof and property. Secure outdoor furniture and loose items that could become projectiles in high winds. Clear gutters and downpipes of debris to ensure proper water flow. Consider installing temporary protective measures if you know your roof has existing vulnerabilities. Keep emergency contact numbers handy, including Newcastle Local Roofers at (02) 4089 4613.</p>
+    <p className="text-[#666666] leading-relaxed mb-6">When severe weather is forecast, take proactive steps to protect your roof and property. Secure outdoor furniture and loose items that could become projectiles in high winds. Clear gutters and downpipes of debris to ensure proper water flow. Consider installing temporary protective measures if you know your roof has existing vulnerabilities. Keep emergency contact numbers handy, including Sydney Roofing & Gutters at (02) 4089 4613.</p>
 
     <h3 className="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Long-term Roof Upgrades for Wind Resistance</h3>
     <p className="text-[#666666] leading-relaxed mb-6">Consider upgrading your roof system to better withstand Newcastle's wind conditions. Modern roofing materials and installation techniques can significantly improve wind resistance. Options include hurricane clips for tile roofs, improved flashing systems, and wind-resistant metal roofing. These upgrades may qualify for insurance discounts and can significantly reduce future repair costs.</p>
@@ -228,7 +228,7 @@ const PostContent = () => (
 
     <p className="text-[#666666] leading-relaxed mb-6">Don't wait to address wind damage. Immediate action can prevent further damage and protect your home's structural integrity. Some types of wind damage require immediate attention to prevent additional problems, while others can be addressed during normal business hours. Understanding the difference helps you respond appropriately to different situations.</p>
 
-    <p className="text-[#666666] leading-relaxed mb-6">Call Newcastle Local Roofers immediately if you experience any of these emergency situations. Visible holes or gaps in your roof that allow water infiltration require immediate attention. Water leaking into your home needs immediate repair to prevent interior damage. Loose or missing roof materials that could become safety hazards should be addressed immediately. Damaged gutters causing water pooling on your roof need prompt attention to prevent structural damage. Any structural concerns about your roof's integrity require immediate professional assessment.</p>
+    <p className="text-[#666666] leading-relaxed mb-6">Call Sydney Roofing & Gutters immediately if you experience any of these emergency situations. Visible holes or gaps in your roof that allow water infiltration require immediate attention. Water leaking into your home needs immediate repair to prevent interior damage. Loose or missing roof materials that could become safety hazards should be addressed immediately. Damaged gutters causing water pooling on your roof need prompt attention to prevent structural damage. Any structural concerns about your roof's integrity require immediate professional assessment.</p>
 
     <div style={{background: 'rgba(52,152,219,.08)', borderLeft: '4px solid #3498DB', padding: '16px', borderRadius: '8px', margin: '32px 0'}}>
       <h4 style={{margin: '0 0 6px 0', color: '#2C3E50'}}>Emergency Service Available 24/7</h4>
@@ -241,7 +241,7 @@ const PostContent = () => (
       </ul>
     </div>
 
-    <p className="text-[#666666] leading-relaxed mb-6"><strong>Don't let wind damage compromise your home's safety and value.</strong> Newcastle Local Roofers provides 24/7 emergency service throughout the Hunter Region. Our experienced team understands Newcastle's unique wind patterns and can provide immediate assistance when you need it most. Call us at <a href="tel:0240894613" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>(02) 4089 4613</a> for immediate assistance, or visit our <a href="/contact-us" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>contact page</a> to schedule a professional inspection. For emergency repairs, visit our <a href="/emergency-roof-repairs" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>emergency services page</a> to learn more about our 24/7 response capabilities. Our experienced team is ready to help protect your most valuable asset - your home.</p>
+    <p className="text-[#666666] leading-relaxed mb-6"><strong>Don't let wind damage compromise your home's safety and value.</strong> Sydney Roofing & Gutters provides 24/7 emergency service throughout the Hunter Region. Our experienced team understands Newcastle's unique wind patterns and can provide immediate assistance when you need it most. Call us at <a href="tel:0240894613" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>(02) 4089 4613</a> for immediate assistance, or visit our <a href="/contact-us" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>contact page</a> to schedule a professional inspection. For emergency repairs, visit our <a href="/emergency-roof-repairs" style={{color: '#3498DB', textDecoration: 'none', fontWeight: '500'}}>emergency services page</a> to learn more about our 24/7 response capabilities. Our experienced team is ready to help protect your most valuable asset - your home.</p>
   </>
 );
 
@@ -290,7 +290,7 @@ const generatePostContent = () => `
     <p class="text-[#666666] leading-relaxed mb-6">Take clear photos and videos of all visible damage from ground level, including multiple angles of each damaged area. Document the time and date of photos, and include wide shots that show the overall condition of your roof. This documentation is essential for insurance claims and will help roofing professionals assess the extent of damage. Take photos of any debris on the ground, as this can provide valuable information about the source and extent of damage.</p>
 
     <h3 class="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Contact Emergency Services</h3>
-    <p class="text-[#666666] leading-relaxed mb-6">Contact Newcastle Local Roofers at (02) 4089 4613 for immediate emergency assessment and temporary repairs. Our 24/7 emergency service is specifically designed to respond quickly to wind damage situations. We can provide temporary protective measures to prevent further damage while you wait for permanent repairs. Emergency services are particularly important during storm season when multiple properties may be affected.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">Contact Sydney Roofing & Gutters at (02) 4089 4613 for immediate emergency assessment and temporary repairs. Our 24/7 emergency service is specifically designed to respond quickly to wind damage situations. We can provide temporary protective measures to prevent further damage while you wait for permanent repairs. Emergency services are particularly important during storm season when multiple properties may be affected.</p>
 
     <h3 class="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Temporary Protection Measures</h3>
     <p class="text-[#666666] leading-relaxed mb-6">If safe to do so, place buckets or tarps under any visible leaks to prevent water damage to your home's interior. Use heavy-duty tarps secured with ropes or weights to cover damaged areas, but never attempt to climb onto the roof yourself. These temporary measures can significantly reduce additional damage while waiting for professional repairs. Ensure all temporary measures are properly secured to prevent them from becoming hazards in continued windy conditions.</p>
@@ -427,7 +427,7 @@ const generatePostContent = () => `
     </ul>
 
     <h3 class="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Storm Preparation for Homeowners</h3>
-    <p class="text-[#666666] leading-relaxed mb-6">When severe weather is forecast, take proactive steps to protect your roof and property. Secure outdoor furniture and loose items that could become projectiles in high winds. Clear gutters and downpipes of debris to ensure proper water flow. Consider installing temporary protective measures if you know your roof has existing vulnerabilities. Keep emergency contact numbers handy, including Newcastle Local Roofers at (02) 4089 4613.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">When severe weather is forecast, take proactive steps to protect your roof and property. Secure outdoor furniture and loose items that could become projectiles in high winds. Clear gutters and downpipes of debris to ensure proper water flow. Consider installing temporary protective measures if you know your roof has existing vulnerabilities. Keep emergency contact numbers handy, including Sydney Roofing & Gutters at (02) 4089 4613.</p>
 
     <h3 class="text-2xl font-semibold text-[#2C3E50] mt-8 mb-4">Long-term Roof Upgrades for Wind Resistance</h3>
     <p class="text-[#666666] leading-relaxed mb-6">Consider upgrading your roof system to better withstand Newcastle's wind conditions. Modern roofing materials and installation techniques can significantly improve wind resistance. Options include hurricane clips for tile roofs, improved flashing systems, and wind-resistant metal roofing. These upgrades may qualify for insurance discounts and can significantly reduce future repair costs.</p>
@@ -463,7 +463,7 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Don't wait to address wind damage. Immediate action can prevent further damage and protect your home's structural integrity. Some types of wind damage require immediate attention to prevent additional problems, while others can be addressed during normal business hours. Understanding the difference helps you respond appropriately to different situations.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6">Call Newcastle Local Roofers immediately if you experience any of these emergency situations. Visible holes or gaps in your roof that allow water infiltration require immediate attention. Water leaking into your home needs immediate repair to prevent interior damage. Loose or missing roof materials that could become safety hazards should be addressed immediately. Damaged gutters causing water pooling on your roof need prompt attention to prevent structural damage. Any structural concerns about your roof's integrity require immediate professional assessment.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">Call Sydney Roofing & Gutters immediately if you experience any of these emergency situations. Visible holes or gaps in your roof that allow water infiltration require immediate attention. Water leaking into your home needs immediate repair to prevent interior damage. Loose or missing roof materials that could become safety hazards should be addressed immediately. Damaged gutters causing water pooling on your roof need prompt attention to prevent structural damage. Any structural concerns about your roof's integrity require immediate professional assessment.</p>
 
     <div style="background: rgba(52,152,219,.08); border-left:4px solid #3498DB; padding:16px; border-radius:8px; margin: 20px 0;">
       <h4 style="margin:0 0 6px 0; color:#2C3E50;">Emergency Service Available 24/7</h4>
@@ -476,13 +476,13 @@ const generatePostContent = () => `
       </ul>
     </div>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Don't let wind damage compromise your home's safety and value.</strong> Newcastle Local Roofers provides 24/7 emergency service throughout the Hunter Region. Our experienced team understands Newcastle's unique wind patterns and can provide immediate assistance when you need it most. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for immediate assistance, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional inspection. For emergency repairs, visit our <a href="/emergency-roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">emergency services page</a> to learn more about our 24/7 response capabilities. Our experienced team is ready to help protect your most valuable asset - your home.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Don't let wind damage compromise your home's safety and value.</strong> Sydney Roofing & Gutters provides 24/7 emergency service throughout the Hunter Region. Our experienced team understands Newcastle's unique wind patterns and can provide immediate assistance when you need it most. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for immediate assistance, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional inspection. For emergency repairs, visit our <a href="/emergency-roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">emergency services page</a> to learn more about our 24/7 response capabilities. Our experienced team is ready to help protect your most valuable asset - your home.</p>
 `;
 
 const postData = {
   title: "Roof Wind Damage in Newcastle: Prevention & Emergency Response",
   excerpt: "Complete guide to understanding, preventing, and responding to roof wind damage in Newcastle and the Hunter Region. Learn what to do when strong winds affect your roof.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-19",
   category: "Emergency",
   tags: ["wind damage", "storm damage", "emergency repairs", "roof repairs newcastle", "insurance claims"],
@@ -501,7 +501,7 @@ const RoofWindDamagePost = () => {
         keywords="roof wind damage newcastle, storm damage roof, emergency roof repairs, roof damage prevention, newcastle storm repairs"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

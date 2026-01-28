@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Restoration costs vary based on roof size, condition, materials, and access requirements, with typical Newcastle projects ranging from $8,000-15,000 for average homes. Premium coating systems and extensive repairs increase costs while delivering superior performance and extended warranties. Weather conditions affect project timelines, with optimal scheduling during Newcastle's drier months ensuring proper curing and application conditions for long-lasting results.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to restore your Newcastle roof with professional expertise?</strong> Newcastle Local Roofers provides comprehensive restoration services throughout the Hunter Region, combining quality materials with expert craftsmanship for exceptional results. Our experienced team understands Newcastle's unique coastal challenges and delivers restoration solutions that extend roof life and enhance property value. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a detailed restoration assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your consultation. Explore our comprehensive <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration services</a> to discover how we can transform your roof's performance and appearance.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to restore your Newcastle roof with professional expertise?</strong> Sydney Roofing & Gutters provides comprehensive restoration services throughout the Hunter Region, combining quality materials with expert craftsmanship for exceptional results. Our experienced team understands Newcastle's unique coastal challenges and delivers restoration solutions that extend roof life and enhance property value. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a detailed restoration assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your consultation. Explore our comprehensive <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration services</a> to discover how we can transform your roof's performance and appearance.</p>
 `;
 
 const postData = {
   title: "Roof Restoration Services Newcastle: Complete Guide",
   excerpt: "Professional roof restoration services in Newcastle. Process, benefits, costs, and when to restore vs replace your roof.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-31",
   category: "Services",
   tags: ["roof restoration", "restoration services", "roof cleaning", "roof painting"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof restoration newcastle, restoration services, roof cleaning, roof painting, roof rejuvenation"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -100,7 +100,7 @@ const RoofersCatherineHillBay = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Roofers in Catherine Hill Bay | 24/7 Emergency Service | Newcastle Local Roofers"
+        title="Roofers in Catherine Hill Bay | 24/7 Emergency Service | Sydney Roofing & Gutters"
         description="Professional roofing services in Catherine Hill Bay, Newcastle. Emergency repairs, roof replacement, restoration. Licensed & insured. Call (02) 4089 4613 for free quote."
         keywords="roofers catherine-hill-bay, roofing catherine-hill-bay, roof repairs catherine-hill-bay, emergency roofer catherine-hill-bay, newcastle roofers"
         ogTitle="Roofers in Catherine Hill Bay | 24/7 Emergency Service"
@@ -157,7 +157,7 @@ const RoofersCatherineHillBay = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing expert roofing services to Catherine Hill Bay residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
+                Sydney Roofing & Gutters has been providing expert roofing services to Catherine Hill Bay residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -255,7 +255,7 @@ const RoofersCatherineHillBay = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Catherine Hill Bay?
+                Why Choose Sydney Roofing & Gutters in Catherine Hill Bay?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -401,7 +401,7 @@ const RoofersCatherineHillBay = () => {
                 Our Roofing Solutions for Catherine Hill Bay
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                At Newcastle Local Roofers, we provide comprehensive roofing solutions tailored to Catherine Hill Bay properties. Our services include emergency repairs for storm damage, preventative maintenance to extend your roof's lifespan, complete roof replacements with modern materials, and roof restoration to improve both appearance and performance. All work is carried out by licensed professionals who understand the specific requirements of Catherine Hill Bay homes.
+                At Sydney Roofing & Gutters, we provide comprehensive roofing solutions tailored to Catherine Hill Bay properties. Our services include emergency repairs for storm damage, preventative maintenance to extend your roof's lifespan, complete roof replacements with modern materials, and roof restoration to improve both appearance and performance. All work is carried out by licensed professionals who understand the specific requirements of Catherine Hill Bay homes.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

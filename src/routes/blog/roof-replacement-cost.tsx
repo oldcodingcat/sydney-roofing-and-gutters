@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Payment plans offered by quality contractors enable manageable project financing with staged payments aligned to completion milestones rather than large upfront costs. Insurance claims for storm damage can significantly offset replacement costs, with comprehensive policies covering materials and labour for approved claims. Home improvement loans provide competitive interest rates for major roof replacement projects, spreading costs over manageable monthly payments.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Planning your Newcastle roof replacement investment?</strong> Newcastle Local Roofers provides transparent pricing, competitive quotes, and flexible payment options for comprehensive roof replacement services throughout the Hunter Region. Our experienced team delivers detailed cost breakdowns, quality material selections, and professional installation that maximises your investment value. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for accurate cost assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your consultation. Explore our comprehensive <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement services</a> to understand how we deliver exceptional value for Newcastle homeowners.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Planning your Newcastle roof replacement investment?</strong> Sydney Roofing & Gutters provides transparent pricing, competitive quotes, and flexible payment options for comprehensive roof replacement services throughout the Hunter Region. Our experienced team delivers detailed cost breakdowns, quality material selections, and professional installation that maximises your investment value. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for accurate cost assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your consultation. Explore our comprehensive <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement services</a> to understand how we deliver exceptional value for Newcastle homeowners.</p>
 `;
 
 const postData = {
   title: "Roof Replacement Cost Newcastle: Complete Price Guide 2024",
   excerpt: "Complete guide to roof replacement costs in Newcastle. Material prices, labour costs, and budget planning for your project.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-31",
   category: "Costs",
   tags: ["roof replacement cost", "roofing prices", "replacement budget", "roof costs"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof replacement cost newcastle, roofing prices, roof cost calculator, replacement budget, colorbond costs"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

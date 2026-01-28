@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Property enhancement through architectural prestige and premium aesthetic appeal typically exceeds installation costs through positive equity impacts in competitive Newcastle property markets. Copper standing seam roofing represents outstanding long-term investment value for Newcastle luxury properties demanding superior roofing solutions that provide decades of exceptional protection and aesthetic distinction throughout ownership periods.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert copper standing seam roofing for your luxury Newcastle property?</strong> Newcastle Local Roofers provides premium copper standing seam installation throughout Newcastle and the Hunter Region. Our experienced team delivers exceptional craftsmanship ensuring your investment provides decades of superior protection and architectural distinction. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our premium services, visit our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation page</a> to learn about our comprehensive roofing solutions. Let us help you invest in premium copper standing seam roofing.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert copper standing seam roofing for your luxury Newcastle property?</strong> Sydney Roofing & Gutters provides premium copper standing seam installation throughout Newcastle and the Hunter Region. Our experienced team delivers exceptional craftsmanship ensuring your investment provides decades of superior protection and architectural distinction. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our premium services, visit our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation page</a> to learn about our comprehensive roofing solutions. Let us help you invest in premium copper standing seam roofing.</p>
 `;
 
 const postData = {
   title: "Copper Standing Seam Roof Newcastle: Premium Guide",
   excerpt: "Expert guide to copper standing seam roofing in Newcastle. Premium systems, installation, patina development, and investment value.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-02",
   category: "Premium",
   tags: ["copper standing seam", "copper roofing", "standing seam", "premium roofing"],
@@ -108,7 +108,7 @@ const CopperStandingSeamRoofPost = () => {
         keywords="copper standing seam newcastle, copper roofing, standing seam roof, premium roofing, copper installation"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -89,13 +89,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Preventive measures include gutter guard installation to reduce debris entry, regular flashing inspection and maintenance, and prompt attention to minor issues before they escalate. Professional maintenance programs provide systematic care that protects your valley investment and ensures optimal performance throughout Newcastle's challenging weather conditions, preventing emergency repairs and extending overall roof lifespan.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert valley repair services?</strong> Newcastle Local Roofers provides comprehensive valley repair and maintenance throughout the Hunter Region. Our experienced team understands Newcastle's unique coastal challenges and delivers lasting solutions for valley problems. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for immediate valley assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule repair services. For more information about our repair services, visit our <a href="/roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof repairs page</a> to explore our comprehensive repair solutions.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert valley repair services?</strong> Sydney Roofing & Gutters provides comprehensive valley repair and maintenance throughout the Hunter Region. Our experienced team understands Newcastle's unique coastal challenges and delivers lasting solutions for valley problems. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for immediate valley assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule repair services. For more information about our repair services, visit our <a href="/roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof repairs page</a> to explore our comprehensive repair solutions.</p>
 `;
 
 const postData = {
   title: "Roof Valley Repairs Newcastle: Expert Repair Guide",
   excerpt: "Complete guide to roof valley repairs in Newcastle. Common problems, repair methods, and preventive maintenance.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-27",
   category: "Repairs",
   tags: ["roof valley repairs", "valley leaks", "roof repairs", "flashing repairs"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof valley repairs newcastle, valley leaks, roof repair, flashing repair, valley maintenance"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

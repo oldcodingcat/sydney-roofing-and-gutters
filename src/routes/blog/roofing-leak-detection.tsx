@@ -95,7 +95,7 @@ const generatePostContent = () => `
 const postData = {
   title: "Roofing Leak Detection Newcastle: Professional Methods & Tips",
   excerpt: "Expert guide to roofing leak detection in Newcastle. Professional methods, common sources, and emergency response.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-25",
   category: "Maintenance",
   tags: ["leak detection", "roof leaks", "water damage", "leak repair"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roofing leak detection newcastle, roof leak repair, water damage detection, thermal imaging, leak testing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

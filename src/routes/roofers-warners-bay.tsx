@@ -156,7 +156,7 @@ const RoofersWarnersBay = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing expert roofing services to Warners Bay residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
+                Sydney Roofing & Gutters has been providing expert roofing services to Warners Bay residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersWarnersBay = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Warners Bay?
+                Why Choose Sydney Roofing & Gutters in Warners Bay?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -404,7 +404,7 @@ const RoofersWarnersBay = () => {
                 Premium Lake Macquarie Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers delivers specialized Lake Macquarie roofing for Warners Bay properties. Our services include lakeside property installations, suburban residential roofing, moisture-appropriate systems, quality material selection, and established suburb expertise. We understand Warners Bay's position as Lake Macquarie's residential hub.
+                Sydney Roofing & Gutters delivers specialized Lake Macquarie roofing for Warners Bay properties. Our services include lakeside property installations, suburban residential roofing, moisture-appropriate systems, quality material selection, and established suburb expertise. We understand Warners Bay's position as Lake Macquarie's residential hub.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

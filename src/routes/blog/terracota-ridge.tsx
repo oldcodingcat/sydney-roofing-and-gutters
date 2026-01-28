@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Colour options include traditional terracotta orange, Mediterranean red, contemporary grey, and heritage brown providing design flexibility matching Newcastle home architectural styles and aesthetic preferences. Professional consultation ensures ridge tile selection that harmonizes with existing roof materials while enhancing overall property aesthetic appeal that contributes positively to Newcastle property market positioning and long-term investment value.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert terracotta ridge installation for your Mediterranean-style Newcastle home?</strong> Newcastle Local Roofers provides professional terracotta ridge work throughout Newcastle and the Hunter Region. Our experienced team understands traditional techniques and heritage requirements ensuring authentic preservation. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our heritage services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive preservation solutions. Let us help protect your Mediterranean-style home with professional terracotta ridge installation.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert terracotta ridge installation for your Mediterranean-style Newcastle home?</strong> Sydney Roofing & Gutters provides professional terracotta ridge work throughout Newcastle and the Hunter Region. Our experienced team understands traditional techniques and heritage requirements ensuring authentic preservation. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our heritage services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive preservation solutions. Let us help protect your Mediterranean-style home with professional terracotta ridge installation.</p>
 `;
 
 const postData = {
   title: "Terracotta Ridge Newcastle: Complete Installation Guide",
   excerpt: "Expert guide to terracotta ridge tiles in Newcastle. Installation systems, maintenance, climate considerations, and aesthetic benefits.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-02",
   category: "Components",
   tags: ["terracotta ridge", "ridge tiles", "terracotta roofing", "ridge capping"],
@@ -108,7 +108,7 @@ const TerracottaRidgePost = () => {
         keywords="terracotta ridge newcastle, ridge tiles, terracotta capping, ridge installation, mediterranean roofing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

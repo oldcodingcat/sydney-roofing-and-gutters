@@ -52,15 +52,15 @@ const ContactUsPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHead 
-        title="Contact Newcastle Local Roofers - 24/7 Emergency Service | Free Quotes"
-        description="Contact Newcastle Local Roofers for emergency roof repairs and free quotes. Available 24/7 across Newcastle and Hunter Region. Call (02) 4089 4613 now."
+        title="Contact Sydney Roofing & Gutters - 24/7 Emergency Service | Free Quotes"
+        description="Contact Sydney Roofing & Gutters for emergency roof repairs and free quotes. Available 24/7 across Newcastle and Hunter Region. Call (02) 4089 4613 now."
         keywords="contact newcastle roofers, emergency roof repairs, free roofing quote, 24/7 roofer newcastle, roof inspection newcastle, hunter region roofing"
-        ogTitle="Contact Newcastle Local Roofers - 24/7 Emergency Service"
+        ogTitle="Contact Sydney Roofing & Gutters - 24/7 Emergency Service"
         ogDescription="Need urgent roof repairs? We're available 24/7. Call (02) 4089 4613 for immediate assistance across Newcastle and Hunter Region."
         ogImage="https://newcastlelocalroofers.com.au/images/emergency-roof-repairs-newcastle.jpg"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services with 24/7 emergency response in Newcastle and Hunter Region"
       />
       <Header />
@@ -72,7 +72,7 @@ const ContactUsPage = () => {
           <div className="text-center text-white">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
             <h1 className="text-4xl md:text-5xl font-bold architectural-heading mb-6">
-              Contact Newcastle Local Roofers
+              Contact Sydney Roofing & Gutters
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Need roof repairs or a free inspection? Contact Newcastle's trusted roofing 
@@ -196,7 +196,7 @@ const ContactUsPage = () => {
 
               <Card className="bg-gradient-to-br from-primary to-secondary text-white">
                 <CardContent className="p-8">
-                  <h3 className="text-xl font-bold mb-4">Why Choose Newcastle Local Roofers?</h3>
+                  <h3 className="text-xl font-bold mb-4">Why Choose Sydney Roofing & Gutters?</h3>
                   <ul className="space-y-3">
                     <li className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
@@ -232,9 +232,9 @@ export const route = {
   path: "/contact-us/",
   element: <ContactUsPage />,
   handle: {
-    title: "Contact Newcastle Local Roofers - 24/7 Emergency Service | Free Quotes",
+    title: "Contact Sydney Roofing & Gutters - 24/7 Emergency Service | Free Quotes",
     meta: [
-      { name: "description", content: "Contact Newcastle Local Roofers for emergency roof repairs and free quotes. Available 24/7 across Newcastle and Hunter Region. Call (02) 4089 4613 now." },
+      { name: "description", content: "Contact Sydney Roofing & Gutters for emergency roof repairs and free quotes. Available 24/7 across Newcastle and Hunter Region. Call (02) 4089 4613 now." },
       { name: "keywords", content: "contact newcastle roofers, emergency roof repairs, free roofing quote, 24/7 roofer newcastle, roof inspection newcastle, hunter region roofing" }
     ]
   }

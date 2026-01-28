@@ -171,7 +171,7 @@ const SchemaMarkup = ({
       const businessData = {
         "@context": "https://schema.org",
         "@type": type === 'RoofingContractor' ? 'RoofingContractor' : (type === 'ProfessionalService' ? 'ProfessionalService' : 'LocalBusiness'),
-        "name": customName || "Newcastle Local Roofers",
+        "name": customName || "Sydney Roofing & Gutters",
         "description": customDescription || "Professional roofing contractor providing 24/7 emergency services in Newcastle, NSW. Specializing in roof repairs, replacements, restoration, and installations.",
         "address": locData.address,
         "geo": locData.geo,
@@ -261,7 +261,7 @@ const SchemaMarkup = ({
           "description": serviceInfo.description,
           "provider": {
             "@type": "RoofingContractor",
-            "name": "Newcastle Local Roofers",
+            "name": "Sydney Roofing & Gutters",
             "address": locData.address,
             "geo": locData.geo,
             "telephone": "+61240894613",

@@ -13,7 +13,7 @@ import { Calendar, User, Clock } from "lucide-react";
 const generatePostContent = () => `
     <p class="text-[#666666] leading-relaxed mb-6">Roof shingles represent the first line of defence against Newcastle's challenging weather conditions, providing essential protection while enhancing your home's aesthetic appeal. These overlapping roofing materials create a water-resistant barrier that shields your property from rain, wind, and harsh coastal elements. In Newcastle's unique climate, characterised by salt air exposure, high humidity, and variable weather patterns, selecting the right shingle material becomes crucial for long-term roof performance and durability.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Newcastle Local Roofers</a> provides expert solutions across Newcastle and the Hunter Region.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Sydney Roofing & Gutters</a> provides expert solutions across Newcastle and the Hunter Region.</p>
 
     <h2 class="text-3xl font-bold text-[#2C3E50] mt-12 mb-6">Best Roof Shingle Types for Newcastle</h2>
 
@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Replacement timing depends on age, condition, and performance factors rather than arbitrary schedules. Quality architectural shingles showing minimal wear after 20 years may continue providing excellent protection, while damaged or poorly installed systems might require earlier replacement regardless of age.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to upgrade your roof with quality shingles?</strong> Newcastle Local Roofers provides expert shingle installation and replacement services throughout Newcastle and the Hunter Region. Our experienced team helps you select the perfect shingle solution for your home's unique requirements and budget. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a comprehensive consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your free estimate. For complete roof replacement services, explore our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement solutions</a> designed specifically for Newcastle's coastal conditions.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to upgrade your roof with quality shingles?</strong> Sydney Roofing & Gutters provides expert shingle installation and replacement services throughout Newcastle and the Hunter Region. Our experienced team helps you select the perfect shingle solution for your home's unique requirements and budget. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a comprehensive consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your free estimate. For complete roof replacement services, explore our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement solutions</a> designed specifically for Newcastle's coastal conditions.</p>
 `;
 
 const postData = {
   title: "Best Roof Shingles Newcastle: Complete Installation Guide",
   excerpt: "Expert guide to roof shingles in Newcastle. Types, installation, costs, and benefits for Australian homes.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-23",
   category: "Materials",
   tags: ["roof shingles", "asphalt shingles", "roofing materials", "shingle installation"],
@@ -108,7 +108,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof shingles newcastle, asphalt shingles, best roofing materials, shingle installation, roof replacement"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

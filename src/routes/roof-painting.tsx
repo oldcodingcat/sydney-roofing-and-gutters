@@ -190,7 +190,7 @@ const RoofPaintingPage = () => {
           <div className="text-center mb-12">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
             <h2 className="text-3xl md:text-4xl font-bold architectural-heading text-primary mb-4">
-              Why Choose Newcastle Local Roofers?
+              Why Choose Sydney Roofing & Gutters?
             </h2>
             <p className="text-base max-w-2xl mx-auto mb-[30px]" style={{ color: '#666666' }}>
               Roof painting with preparation and application standards tailored for the Hunter climate.
@@ -459,7 +459,7 @@ const RoofPaintingPage = () => {
           <div className="text-center mb-12">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
             <h2 className="text-3xl md:text-4xl font-bold architectural-heading text-primary mb-4">
-              Why Choose Newcastle Local Roofers for Roof Painting
+              Why Choose Sydney Roofing & Gutters for Roof Painting
             </h2>
             <p className="text-base max-w-2xl mx-auto" style={{ color: '#666666' }}>
               Meticulous preparation, correct system specification and consistent application ensure lasting results.

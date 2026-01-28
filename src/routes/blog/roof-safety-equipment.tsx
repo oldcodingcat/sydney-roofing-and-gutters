@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Regular equipment inspection and maintenance ensures safety equipment maintains protective capabilities throughout demanding Newcastle roofing conditions. Pre-use inspections check for wear, damage, or defects that could compromise equipment performance during critical situations. Monthly detailed inspections examine equipment components for wear patterns, corrosion, or damage requiring repair or replacement to maintain safety standards.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional roofing services with comprehensive safety protocols?</strong> Newcastle Local Roofers implements industry-leading safety systems throughout the Hunter Region. Our certified team maintains current safety training and utilises premium equipment that exceeds Australian standards for worker protection. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional assessment. For comprehensive information about our inspection services, visit our <a href="/roof-inspections" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof inspections page</a> to discover how our safety-focused approach protects both workers and your Newcastle property investment.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional roofing services with comprehensive safety protocols?</strong> Sydney Roofing & Gutters implements industry-leading safety systems throughout the Hunter Region. Our certified team maintains current safety training and utilises premium equipment that exceeds Australian standards for worker protection. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule a professional assessment. For comprehensive information about our inspection services, visit our <a href="/roof-inspections" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof inspections page</a> to discover how our safety-focused approach protects both workers and your Newcastle property investment.</p>
 `;
 
 const postData = {
   title: "Roof Safety Equipment Newcastle: Complete Safety Guide",
   excerpt: "Essential guide to roof safety equipment in Newcastle. Standards, equipment types, and professional safety practices.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-28",
   category: "Safety",
   tags: ["safety equipment", "roof safety", "fall protection", "safety standards"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof safety equipment newcastle, safety harness, fall protection, safety standards, roof safety gear"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

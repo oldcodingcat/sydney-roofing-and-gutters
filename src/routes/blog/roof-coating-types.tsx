@@ -101,13 +101,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Energy savings from reflective coatings can significantly offset application costs over time. These coatings reduce cooling costs by reflecting solar heat, particularly beneficial in Newcastle's warm climate. The energy savings, combined with extended roof life, make roof coatings an excellent investment for Newcastle homeowners seeking to protect their property and reduce operating costs while maintaining comfort year-round.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to protect your roof with professional coating services?</strong> Newcastle Local Roofers provides comprehensive roof coating services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect coating solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roofing services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive roofing solutions. Let us help you protect your investment with professional roof coating services.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to protect your roof with professional coating services?</strong> Sydney Roofing & Gutters provides comprehensive roof coating services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect coating solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roofing services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive roofing solutions. Let us help you protect your investment with professional roof coating services.</p>
 `;
 
 const postData = {
   title: "Roof Coatings Newcastle: Types & Benefits Guide",
   excerpt: "Complete guide to roof coating types in Newcastle. Acrylic, silicone, elastomeric coatings for metal and tile roofs.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-21",
   category: "Maintenance",
   tags: ["roof coatings", "roof protection", "roof maintenance", "roof restoration"],
@@ -126,7 +126,7 @@ const RoofCoatingTypesPost = () => {
         keywords="roof coatings newcastle, roof protection, acrylic coating, silicone coating, roof restoration"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

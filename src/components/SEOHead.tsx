@@ -69,7 +69,7 @@ const SEOHead = ({
         {ogImage && <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${BASE_URL}${ogImage}`} />}
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Newcastle Local Roofers" />
+        <meta property="og:site_name" content="Sydney Roofing & Gutters" />
         
         {/* Twitter Card */}
         {finalOgTitle && <meta name="twitter:title" content={finalOgTitle} />}

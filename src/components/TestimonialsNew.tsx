@@ -9,7 +9,7 @@ interface TestimonialWithPhotos {
   photos: string[];
 }
 
-// Real Google reviews - Newcastle Local Roofers
+// Real Google reviews - Sydney Roofing & Gutters
 const testimonialsData: TestimonialWithPhotos[] = [
   {
     text: "Had a full metal roof installation done and couldn't be more impressed. The finish is clean, everything's watertight, and they even helped organise the guttering. Fast turnaround and really easy to deal with. If you're after quality roofing work, these are the people to go with.",

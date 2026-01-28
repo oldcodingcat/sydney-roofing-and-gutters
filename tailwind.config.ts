@@ -62,7 +62,7 @@ export default {
 					brand: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Newcastle Local Roofers Brand Colors
+				// Sydney Roofing & Gutters Brand Colors
 				brand: {
 					primary: 'hsl(var(--brand-primary))',
 					'primary-light': 'hsl(var(--brand-primary-light))',

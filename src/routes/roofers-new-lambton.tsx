@@ -156,7 +156,7 @@ const RoofersNewLambton = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing reliable roofing solutions to New Lambton families for over 15 years. Our team specializes in residential roofing maintenance, aging roof replacement, and tree-related roofing challenges common to this established suburb.
+                Sydney Roofing & Gutters has been providing reliable roofing solutions to New Lambton families for over 15 years. Our team specializes in residential roofing maintenance, aging roof replacement, and tree-related roofing challenges common to this established suburb.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersNewLambton = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in New Lambton?
+                Why Choose Sydney Roofing & Gutters in New Lambton?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">

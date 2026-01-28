@@ -156,7 +156,7 @@ const RoofersTighesHill = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing expert roofing services to Tighes Hill residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
+                Sydney Roofing & Gutters has been providing expert roofing services to Tighes Hill residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersTighesHill = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Tighes Hill?
+                Why Choose Sydney Roofing & Gutters in Tighes Hill?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -404,7 +404,7 @@ const RoofersTighesHill = () => {
                 Versatile Roofing Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers provides comprehensive roofing for Tighes Hill's mixed properties. Our services include residential roof maintenance and replacement, light-industrial roofing solutions, warehouse conversion roofing, affordable quality installations, and inner-city emergency response. We understand both residential and commercial requirements in this diverse suburb.
+                Sydney Roofing & Gutters provides comprehensive roofing for Tighes Hill's mixed properties. Our services include residential roof maintenance and replacement, light-industrial roofing solutions, warehouse conversion roofing, affordable quality installations, and inner-city emergency response. We understand both residential and commercial requirements in this diverse suburb.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

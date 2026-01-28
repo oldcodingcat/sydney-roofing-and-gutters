@@ -81,13 +81,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Regular inspection every 12-24 months helps identify developing issues with lead flashing before significant problems develop. Common issues include theft of lead materials, mechanical damage from maintenance activities, and corrosion from incompatible metals. Early identification allows for repair rather than replacement, while professional assessment determines whether spot repairs or full replacement provides the most cost-effective solution.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert lead flashing installation or repair services?</strong> Newcastle Local Roofers provides comprehensive lead flashing services throughout Newcastle heritage areas including Wickham, The Junction, and Merewether. Our experienced team understands traditional techniques and modern compliance requirements. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our specialist flashing services, visit our <a href="/roof-flashing-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof flashing installation page</a>.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert lead flashing installation or repair services?</strong> Sydney Roofing & Gutters provides comprehensive lead flashing services throughout Newcastle heritage areas including Wickham, The Junction, and Merewether. Our experienced team understands traditional techniques and modern compliance requirements. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our specialist flashing services, visit our <a href="/roof-flashing-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof flashing installation page</a>.</p>
 `;
 
 const postData = {
   title: "Lead Apron & Cover Flashing Newcastle: Heritage Installation Guide",
   excerpt: "Expert guide to lead apron and cover flashing in Newcastle. Professional installation, heritage compliance, and maintenance for premium roofing.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-03",
   category: "Heritage",
   tags: ["lead flashing", "apron flashing", "cover flashing", "heritage roofing"],
@@ -106,7 +106,7 @@ const LeadApronPost = () => {
         keywords="lead apron flashing newcastle, lead cover flashing, heritage roofing, lead installation, traditional flashing"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

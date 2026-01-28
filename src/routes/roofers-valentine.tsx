@@ -156,7 +156,7 @@ const RoofersValentine = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing expert roofing services to Valentine residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
+                Sydney Roofing & Gutters has been providing expert roofing services to Valentine residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersValentine = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Valentine?
+                Why Choose Sydney Roofing & Gutters in Valentine?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -404,7 +404,7 @@ const RoofersValentine = () => {
                 Lake Macquarie Roofing Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers delivers specialized Lake Macquarie roofing for Valentine homes. Our services include moisture-appropriate ventilation systems, family home roof maintenance, established property replacements, lakeside-rated materials, and community-focused service. We understand Valentine's lakeside residential character and family-oriented priorities.
+                Sydney Roofing & Gutters delivers specialized Lake Macquarie roofing for Valentine homes. Our services include moisture-appropriate ventilation systems, family home roof maintenance, established property replacements, lakeside-rated materials, and community-focused service. We understand Valentine's lakeside residential character and family-oriented priorities.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

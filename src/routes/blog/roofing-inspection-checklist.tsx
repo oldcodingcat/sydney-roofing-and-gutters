@@ -13,7 +13,7 @@ import { Calendar, User, Clock } from "lucide-react";
 const generatePostContent = () => `
     <p class="text-[#666666] leading-relaxed mb-6">Regular roof inspections are essential for maintaining your Newcastle home's most valuable protection system, helping identify potential issues before they escalate into costly repairs. Newcastle's challenging coastal climate, with its combination of high humidity, salt air exposure, frequent rainfall, and seasonal storms, places unique demands on roofing systems across suburbs like Merewether, Hamilton, and Charlestown. A comprehensive inspection checklist ensures no critical area is overlooked, from structural integrity to weatherproofing effectiveness. Professional assessment combined with systematic DIY checks provides Newcastle homeowners with complete peace of mind and early warning of maintenance needs.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Newcastle Local Roofers</a> provides expert solutions across Newcastle and the Hunter Region.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Sydney Roofing & Gutters</a> provides expert solutions across Newcastle and the Hunter Region.</p>
 
     <h2 class="text-3xl font-bold text-[#2C3E50] mt-12 mb-6">Complete Roof Inspection Checklist</h2>
 
@@ -89,13 +89,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Investment protection through thorough pre-purchase inspection can save buyers significant money and prevent post-settlement disputes. Understanding a roof's true condition helps plan maintenance budgets and avoid surprises that could impact property enjoyment or resale value.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional roof inspection services?</strong> Newcastle Local Roofers provides comprehensive inspection services throughout the Hunter Region. Our qualified team understands Newcastle's unique coastal challenges and provides detailed reports for maintenance planning or property purchases. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your inspection. For more information about our inspection services, visit our <a href="/roof-inspections" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof inspections page</a> to learn about our comprehensive assessment process.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need professional roof inspection services?</strong> Sydney Roofing & Gutters provides comprehensive inspection services throughout the Hunter Region. Our qualified team understands Newcastle's unique coastal challenges and provides detailed reports for maintenance planning or property purchases. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for expert assessment, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your inspection. For more information about our inspection services, visit our <a href="/roof-inspections" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof inspections page</a> to learn about our comprehensive assessment process.</p>
 `;
 
 const postData = {
   title: "Roofing Inspection Checklist Newcastle: Complete Guide",
   excerpt: "Essential roofing inspection checklist for Newcastle homes. DIY checks, professional assessments, and seasonal inspection guide.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-26",
   category: "Maintenance",
   tags: ["roof inspection", "inspection checklist", "roof assessment", "pre-purchase inspection"],
@@ -114,7 +114,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof inspection checklist, roof inspection newcastle, pre-purchase inspection, roof assessment, inspection guide"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

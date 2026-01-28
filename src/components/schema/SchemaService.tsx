@@ -27,7 +27,7 @@ interface SchemaServiceProps {
 export default function SchemaService({
   serviceName,
   description = "Professional roofing services in Newcastle and Hunter Region",
-  providerName = "Newcastle Local Roofers",
+  providerName = "Sydney Roofing & Gutters",
   providerType = "RoofingContractor",
   telephone = "+61-2-4089-4613",
   url = "https://newcastlelocalroofers.com.au",

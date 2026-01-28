@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Newcastle Local Roofers Design System - Architectural Professional Theme */
+/* Sydney Roofing & Gutters Design System - Architectural Professional Theme */
 
 @layer base {
   :root {
-    /* Newcastle Local Roofers Brand Colors - Charcoal (premium/modern) + Electric Blue (trust/technology) */
+    /* Sydney Roofing & Gutters Brand Colors - Charcoal (premium/modern) + Electric Blue (trust/technology) */
     --brand-primary: 210 25% 24%;        /* #2C3E50 - Charcoal Gray */
     --brand-primary-light: 210 22% 29%;  /* #34495E - Light Charcoal */
     --brand-accent: 204 70% 53%;         /* #3498DB - Electric Blue */

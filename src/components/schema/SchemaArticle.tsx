@@ -15,7 +15,7 @@ export default function SchemaArticle({
   description, 
   datePublished,
   dateModified,
-  authorName = "Newcastle Local Roofers",
+  authorName = "Sydney Roofing & Gutters",
   image = "https://newcastlelocalroofers.com.au/images/newcastle-local-roofers-logo.png",
   url
 }: SchemaArticleProps) {
@@ -34,7 +34,7 @@ export default function SchemaArticle({
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Newcastle Local Roofers",
+      "name": "Sydney Roofing & Gutters",
       "logo": {
         "@type": "ImageObject",
         "url": "https://newcastlelocalroofers.com.au/images/newcastle-local-roofers-logo.png"

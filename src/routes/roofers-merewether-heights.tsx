@@ -156,7 +156,7 @@ const RoofersMerewetherHeights = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing specialized roofing solutions to Merewether Heights' elevated properties for over 15 years. Our team understands the unique challenges of hillside coastal properties and delivers engineered solutions designed for extreme conditions.
+                Sydney Roofing & Gutters has been providing specialized roofing solutions to Merewether Heights' elevated properties for over 15 years. Our team understands the unique challenges of hillside coastal properties and delivers engineered solutions designed for extreme conditions.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersMerewetherHeights = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Merewether Heights?
+                Why Choose Sydney Roofing & Gutters in Merewether Heights?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">

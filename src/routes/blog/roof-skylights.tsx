@@ -13,7 +13,7 @@ import { Calendar, User, Clock } from "lucide-react";
 const generatePostContent = () => `
     <p class="text-[#666666] leading-relaxed mb-6">Roof skylights transform Newcastle homes by introducing natural light into previously dark spaces, creating brighter, more inviting interiors while reducing reliance on artificial lighting. These innovative roof windows offer numerous benefits including improved ventilation, enhanced energy efficiency, and increased property value. In Newcastle's coastal environment, skylights help combat the challenges of limited natural light during overcast periods while providing essential ventilation to prevent moisture buildup. With proper selection and professional installation, skylights become valuable additions that brighten living spaces, reduce energy costs, and enhance the overall comfort and aesthetic appeal of homes throughout Merewether, Hamilton, and surrounding Newcastle suburbs.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Newcastle Local Roofers</a> provides expert solutions across Newcastle and the Hunter Region.</p>
+    <p class="text-[#666666] leading-relaxed mb-6">Looking for professional roofing services? <a href="/" class="text-[#3498DB] hover:text-[#2C7CB5] font-semibold underline">Sydney Roofing & Gutters</a> provides expert solutions across Newcastle and the Hunter Region.</p>
 
     <h2 class="text-3xl font-bold text-[#2C3E50] mt-12 mb-6">Best Skylight Types for Newcastle Homes</h2>
 
@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Skylight installation costs vary based on type, size, roof complexity, and accessibility factors, typically ranging from $800 to $4,000 per unit including professional installation. Energy savings from reduced artificial lighting and heating requirements provide measurable returns, with quality skylights typically recouping installation costs within 5-8 years through utility savings. Property value increases of 2-4% reflect the desirable nature of natural light features in Newcastle's competitive real estate market.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to brighten your Newcastle home with professional skylight installation?</strong> Newcastle Local Roofers specialises in quality skylight solutions throughout the Hunter Region. Our experienced team ensures proper installation, waterproofing, and compliance with all building standards for optimal performance and longevity. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a comprehensive consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your skylight assessment. For additional roof enhancement options, explore our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation services</a> for complete roofing solutions.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to brighten your Newcastle home with professional skylight installation?</strong> Sydney Roofing & Gutters specialises in quality skylight solutions throughout the Hunter Region. Our experienced team ensures proper installation, waterproofing, and compliance with all building standards for optimal performance and longevity. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a comprehensive consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule your skylight assessment. For additional roof enhancement options, explore our <a href="/new-roof-installation" style="color: #3498DB; text-decoration: none; font-weight: 500;">new roof installation services</a> for complete roofing solutions.</p>
 `;
 
 const postData = {
   title: "Roof Skylights Newcastle: Complete Installation Guide",
   excerpt: "Expert guide to roof skylights in Newcastle. Types, installation process, benefits, and maintenance for natural light.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-29",
   category: "Features",
   tags: ["roof skylights", "skylight installation", "natural light", "roof windows"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof skylights newcastle, skylight installation, roof windows, natural light, tubular skylights"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

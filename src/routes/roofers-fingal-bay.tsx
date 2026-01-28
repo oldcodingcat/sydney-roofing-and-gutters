@@ -101,7 +101,7 @@ const RoofersFingalBay = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Roofers in Fingal Bay | 24/7 Emergency Service | Newcastle Local Roofers"
+        title="Roofers in Fingal Bay | 24/7 Emergency Service | Sydney Roofing & Gutters"
         description="Professional roofing services in Fingal Bay, Newcastle. Emergency repairs, roof replacement, restoration. Licensed & insured. Call (02) 4089 4613 for free quote."
         keywords="roofers fingal-bay, roofing fingal-bay, roof repairs fingal-bay, emergency roofer fingal-bay, newcastle roofers"
         ogTitle="Roofers in Fingal Bay | 24/7 Emergency Service"
@@ -156,7 +156,7 @@ const RoofersFingalBay = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers has been providing expert roofing services to Fingal Bay residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
+                Sydney Roofing & Gutters has been providing expert roofing services to Fingal Bay residents for over 15 years. Our team of licensed and insured roofers specializes in all aspects of residential and commercial roofing, from emergency repairs to complete roof replacements.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersFingalBay = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Fingal Bay?
+                Why Choose Sydney Roofing & Gutters in Fingal Bay?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -404,7 +404,7 @@ const RoofersFingalBay = () => {
                 Our Roofing Solutions for Fingal Bay
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                At Newcastle Local Roofers, we provide comprehensive roofing solutions tailored to Fingal Bay properties. Our services include emergency repairs for storm damage, preventative maintenance to extend your roof's lifespan, complete roof replacements with modern materials, and roof restoration to improve both appearance and performance. All work is carried out by licensed professionals who understand the specific requirements of Fingal Bay homes.
+                At Sydney Roofing & Gutters, we provide comprehensive roofing solutions tailored to Fingal Bay properties. Our services include emergency repairs for storm damage, preventative maintenance to extend your roof's lifespan, complete roof replacements with modern materials, and roof restoration to improve both appearance and performance. All work is carried out by licensed professionals who understand the specific requirements of Fingal Bay homes.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

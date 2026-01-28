@@ -40,7 +40,7 @@ export default function SchemaLocation({
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `Newcastle Local Roofers - ${locationName}`,
+    "name": `Sydney Roofing & Gutters - ${locationName}`,
     "description": description,
     "image": image,
     "telephone": telephone,

@@ -106,7 +106,7 @@ const RoofInspectionPage = () => {
         <div className="container mx-auto px-7 lg:px-14 xl:px-20">
           <div className="text-center mb-12">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
-            <h2 className="text-3xl md:text-4xl font-bold architectural-heading text-primary mb-4">Why Choose Newcastle Local Roofers?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold architectural-heading text-primary mb-4">Why Choose Sydney Roofing & Gutters?</h2>
             <p className="text-base max-w-2xl mx-auto mb-[30px]" style={{ color: '#666666' }}>Clear and actionable reports for pre-purchase, insurance and preventive maintenance.</p>
           </div>
 

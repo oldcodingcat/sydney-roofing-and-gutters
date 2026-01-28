@@ -83,13 +83,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Replacement costs vary depending on underlayment type, roof size, accessibility, and labour requirements. While initial costs may seem significant, quality underlayment provides excellent value by preventing costly water damage and extending overall roof life. Professional installation ensures optimal performance and maximizes your investment in roof protection for your Newcastle home.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert underlayment installation or replacement services?</strong> Newcastle Local Roofers provides comprehensive underlayment services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect underlayment solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our waterproofing services, visit our <a href="/roof-waterproofing" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof waterproofing page</a> to learn about our comprehensive protection solutions. Let us help you protect your investment with professional underlayment services.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert underlayment installation or replacement services?</strong> Sydney Roofing & Gutters provides comprehensive underlayment services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect underlayment solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our waterproofing services, visit our <a href="/roof-waterproofing" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof waterproofing page</a> to learn about our comprehensive protection solutions. Let us help you protect your investment with professional underlayment services.</p>
 `;
 
 const postData = {
   title: "Essential Roof Underlayment Newcastle: Complete Protection Guide",
   excerpt: "Complete guide to roof underlayment in Newcastle. Best materials, installation, and waterproofing protection.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-24",
   category: "Materials",
   tags: ["roof underlayment", "roof protection", "waterproof membrane", "roofing felt"],
@@ -108,7 +108,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof underlayment newcastle, roofing felt, waterproof membrane, roof protection, underlayment installation"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

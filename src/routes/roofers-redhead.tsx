@@ -235,7 +235,7 @@ const RoofersRedhead = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Redhead?
+                Why Choose Sydney Roofing & Gutters in Redhead?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ const RoofersRedhead = () => {
                 Premium Beach Property Solutions
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers provides specialized beach property roofing for Redhead homes. We deliver sand-resistant ventilation systems, enhanced marine-grade materials, beach-appropriate drainage design, corrosion-proof fixings throughout, and UV-resistant coatings for intense sun exposure. Every installation accounts for Redhead's unique sandy coastal environment.
+                Sydney Roofing & Gutters provides specialized beach property roofing for Redhead homes. We deliver sand-resistant ventilation systems, enhanced marine-grade materials, beach-appropriate drainage design, corrosion-proof fixings throughout, and UV-resistant coatings for intense sun exposure. Every installation accounts for Redhead's unique sandy coastal environment.
               </p>
 
               <h3 className="text-xl font-semibold text-primary mb-4">

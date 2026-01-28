@@ -87,13 +87,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Preventive measures significantly reduce storm damage risk and minimise repair costs when severe weather impacts Newcastle properties. Regular maintenance including gutter cleaning, loose tile securing, and flashing inspection identifies vulnerabilities before storms exploit them. Tree management around properties reduces debris risks while proper roof anchoring and reinforcement withstand higher wind loads common in coastal environments.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need emergency storm damage assessment or preventive maintenance services?</strong> Newcastle Local Roofers provides 24/7 emergency response and comprehensive storm damage services throughout the Hunter Region. Our experienced team understands Newcastle's unique storm challenges and provides rapid response capabilities that minimise damage and protect your property investment. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for immediate emergency assistance, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule preventive maintenance. For comprehensive information about our emergency services, visit our <a href="/emergency-roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">emergency roof repairs page</a> to discover how our rapid response capabilities protect Newcastle homes from storm damage escalation.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need emergency storm damage assessment or preventive maintenance services?</strong> Sydney Roofing & Gutters provides 24/7 emergency response and comprehensive storm damage services throughout the Hunter Region. Our experienced team understands Newcastle's unique storm challenges and provides rapid response capabilities that minimise damage and protect your property investment. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for immediate emergency assistance, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule preventive maintenance. For comprehensive information about our emergency services, visit our <a href="/emergency-roof-repairs" style="color: #3498DB; text-decoration: none; font-weight: 500;">emergency roof repairs page</a> to discover how our rapid response capabilities protect Newcastle homes from storm damage escalation.</p>
 `;
 
 const postData = {
   title: "Roof Storm Damage Newcastle: Emergency Repair Guide",
   excerpt: "Complete guide to roof storm damage in Newcastle. Emergency response, insurance claims, and preventive measures.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-28",
   category: "Emergency",
   tags: ["storm damage", "emergency repairs", "wind damage", "hail damage"],
@@ -112,7 +112,7 @@ const RoofWaterproofingPost = () => {
         keywords="roof storm damage newcastle, emergency roof repairs, wind damage, hail damage, storm repairs"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

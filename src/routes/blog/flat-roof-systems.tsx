@@ -101,13 +101,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Energy efficiency benefits from flat roof systems can significantly offset installation costs over time. Reflective membranes reduce cooling costs, while proper insulation improves thermal performance. The energy savings, combined with extended roof life and space utilization benefits, make flat roof systems an excellent investment for Newcastle property owners seeking to maximize their building's potential.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to explore flat roof systems for your Newcastle property?</strong> Newcastle Local Roofers provides comprehensive flat roof services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect flat roof solution for your building. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof replacement services, visit our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement page</a> to learn about our comprehensive roofing solutions. Let us help you maximize your property's potential with professional flat roof systems.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to explore flat roof systems for your Newcastle property?</strong> Sydney Roofing & Gutters provides comprehensive flat roof services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect flat roof solution for your building. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof replacement services, visit our <a href="/roof-replacement" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof replacement page</a> to learn about our comprehensive roofing solutions. Let us help you maximize your property's potential with professional flat roof systems.</p>
 `;
 
 const postData = {
   title: "Flat Roof Systems Newcastle: Types, Benefits & Maintenance",
   excerpt: "Complete guide to flat roof systems in Newcastle. TPO, EPDM, PVC roofing for commercial and residential properties.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-22",
   category: "Roofing Types",
   tags: ["flat roofs", "TPO roofing", "EPDM roofing", "commercial roofing"],
@@ -126,7 +126,7 @@ const FlatRoofSystemsPost = () => {
         keywords="flat roof systems newcastle, TPO roofing, EPDM roofing, PVC roofing, commercial roofing, flat roof maintenance"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

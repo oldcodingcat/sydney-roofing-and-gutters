@@ -81,13 +81,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Premium diamond pattern installations command significant cost premiums due to specialist cutting requirements, increased material waste, and extended installation timelines. The sophisticated aesthetic provides exceptional return on investment through enhanced property values, distinctive curb appeal, and heritage compliance that maintains architectural significance. Properties featuring diamond pattern slate installations in Merewether Heights and prestige suburbs demonstrate superior architectural distinction that attracts discerning buyers and commands premium valuations.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert SVK diamond pattern slate installation services?</strong> Newcastle Local Roofers provides comprehensive diamond pattern slate services throughout Newcastle heritage areas and prestige developments. Our experienced team understands traditional pattern cutting techniques and architectural requirements. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our premium slate services, visit our <a href="/svk-slate-roof" style="color: #3498DB; text-decoration: none; font-weight: 500;">SVK slate roof page</a>.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Need expert SVK diamond pattern slate installation services?</strong> Sydney Roofing & Gutters provides comprehensive diamond pattern slate services throughout Newcastle heritage areas and prestige developments. Our experienced team understands traditional pattern cutting techniques and architectural requirements. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our premium slate services, visit our <a href="/svk-slate-roof" style="color: #3498DB; text-decoration: none; font-weight: 500;">SVK slate roof page</a>.</p>
 `;
 
 const postData = {
   title: "SVK Diamond Pattern Slates Newcastle: Premium Design Guide",
   excerpt: "Expert guide to SVK diamond pattern slate roofing in Newcastle. Distinctive designs, professional installation, and heritage elegance.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2025-01-03",
   category: "Premium",
   tags: ["SVK diamond pattern", "decorative slates", "pattern slates", "heritage roofing"],
@@ -106,7 +106,7 @@ const SVKDiamondPatternPost = () => {
         keywords="SVK diamond pattern slates newcastle, decorative slate roofing, pattern slates, heritage slate, Slovakian slate patterns"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

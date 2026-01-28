@@ -101,7 +101,7 @@ const RoofersMayfield = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Roofers in Mayfield | 24/7 Emergency Service | Newcastle Local Roofers"
+        title="Roofers in Mayfield | 24/7 Emergency Service | Sydney Roofing & Gutters"
         description="Expert roofing contractors in Mayfield, Newcastle. Specializing in emergency repairs, roof replacements and industrial roofing. Call (02) 4089 4613."
         keywords="roofers mayfield, roofing mayfield, roof repairs mayfield, industrial roofing mayfield, emergency roofer mayfield"
         ogTitle="Roofers in Mayfield | 24/7 Emergency Service"
@@ -156,7 +156,7 @@ const RoofersMayfield = () => {
               </h2>
               
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                For over 15 years, Newcastle Local Roofers has delivered exceptional roofing solutions to Mayfield property owners. Our qualified team handles everything from urgent repairs to full-scale roof installations across residential and commercial buildings.
+                For over 15 years, Sydney Roofing & Gutters has delivered exceptional roofing solutions to Mayfield property owners. Our qualified team handles everything from urgent repairs to full-scale roof installations across residential and commercial buildings.
               </p>
 
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
@@ -256,7 +256,7 @@ const RoofersMayfield = () => {
             <div className="text-center mb-12">
               <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary">
-                Why Choose Newcastle Local Roofers in Mayfield?
+                Why Choose Sydney Roofing & Gutters in Mayfield?
               </h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -404,7 +404,7 @@ const RoofersMayfield = () => {
                 Our Approach to Mayfield Properties
               </h3>
               <p className="text-base leading-relaxed mb-6" style={{color: '#666666'}}>
-                Newcastle Local Roofers provides specialized roofing services for Mayfield's mixed property types. We handle commercial emergency callouts, residential roof maintenance programs, complete replacement installations, and restoration services for aging roofs. Our team understands both residential and light-industrial roofing requirements.
+                Sydney Roofing & Gutters provides specialized roofing services for Mayfield's mixed property types. We handle commercial emergency callouts, residential roof maintenance programs, complete replacement installations, and restoration services for aging roofs. Our team understands both residential and light-industrial roofing requirements.
               </p>
 
               <div className="bg-primary/5 border-l-4 border-primary p-6 rounded-r-lg mb-6">

@@ -101,13 +101,13 @@ const generatePostContent = () => `
 
     <p class="text-[#666666] leading-relaxed mb-6">Energy savings from proper insulation can significantly offset installation costs over time. These materials reduce heating and cooling costs by maintaining comfortable temperatures with less energy consumption. The energy savings, combined with improved comfort and potential government rebates, make insulation an excellent investment for Newcastle homeowners seeking to optimize their home's energy efficiency and comfort.</p>
 
-    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to improve your home's energy efficiency with professional insulation services?</strong> Newcastle Local Roofers provides comprehensive insulation services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect insulation solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof restoration services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive roofing solutions. Let us help you maximize your home's comfort and efficiency with professional insulation materials.</p>
+    <p class="text-[#666666] leading-relaxed mb-6"><strong>Ready to improve your home's energy efficiency with professional insulation services?</strong> Sydney Roofing & Gutters provides comprehensive insulation services throughout the Hunter Region. Our experienced team understands Newcastle's unique climate challenges and can help you choose the perfect insulation solution for your home. Call us at <a href="tel:0240894613" style="color: #3498DB; text-decoration: none; font-weight: 500;">(02) 4089 4613</a> for a free consultation, or visit our <a href="/contact-us" style="color: #3498DB; text-decoration: none; font-weight: 500;">contact page</a> to schedule an inspection. For more information about our roof restoration services, visit our <a href="/roof-restoration" style="color: #3498DB; text-decoration: none; font-weight: 500;">roof restoration page</a> to learn about our comprehensive roofing solutions. Let us help you maximize your home's comfort and efficiency with professional insulation materials.</p>
 `;
 
 const postData = {
   title: "Roof Insulation Materials Newcastle: Complete Guide & Costs",
   excerpt: "Complete guide to roof insulation materials in Newcastle. Batts, reflective foil, spray foam for energy efficiency.",
-  author: "Newcastle Local Roofers",
+  author: "Sydney Roofing & Gutters",
   publishDate: "2024-12-23",
   category: "Installation",
   tags: ["roof insulation", "insulation materials", "energy efficiency", "thermal insulation"],
@@ -126,7 +126,7 @@ const RoofInsulationMaterialsPost = () => {
         keywords="roof insulation newcastle, insulation materials, thermal insulation, ceiling insulation, energy efficiency, insulation batts"
         schemaType="RoofingContractor"
         location="newcastle"
-        customName="Newcastle Local Roofers"
+        customName="Sydney Roofing & Gutters"
         customDescription="Professional roofing services in Newcastle with 24/7 emergency response"
       />
       

@@ -189,7 +189,7 @@ const RoofRepairsPage = () => {
           <div className="text-center mb-12">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
             <h2 className="text-3xl md:text-4xl font-bold architectural-heading text-primary mb-4">
-              Why Choose Newcastle Local Roofers?
+              Why Choose Sydney Roofing & Gutters?
             </h2>
             <p className="text-base max-w-2xl mx-auto mb-[60px]" style={{ color: '#666666' }}>
               Professional, fast, and reliable roof repairs across Newcastle and the Hunter Region, 24/7.
@@ -453,13 +453,13 @@ const RoofRepairsPage = () => {
         </div>
       </section>
 
-      {/* Why Choose Newcastle Local Roofers - Additional */}
+      {/* Why Choose Sydney Roofing & Gutters - Additional */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-7 lg:px-14 xl:px-20">
           <div className="text-center mb-12">
             <div className="blueprint-line border-t-2 border-accent w-20 mx-auto mb-6"></div>
             <h2 className="text-3xl md:text-4xl font-bold architectural-heading text-primary mb-4">
-              Why Choose Newcastle Local Roofers for Roof Repairs
+              Why Choose Sydney Roofing & Gutters for Roof Repairs
             </h2>
             <p className="text-base max-w-2xl mx-auto" style={{ color: '#666666' }}>
               Experience the difference that professional expertise and reliable service make for your roof.
