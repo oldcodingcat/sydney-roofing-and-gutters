@@ -1,6 +1,6 @@
 // src/routes/services/ServiceTemplate.tsx
 import type { Route } from "react-router";
-import { useMemo } from "react";
+import { useMemo, useState, type FormEvent, type ReactNode } from "react";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,6 +10,8 @@ import SEOHead from "@/components/SEOHead";
 import MapWithForm from "@/components/MapWithForm";
 import FaqSection from "@/components/FaqSection";
 import ContentBlock3 from "@/components/ContentBlock3";
+
+import { submitNetlifyForm } from "@/lib/netlifyForm";
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Phone, Send } from "lucide-react";
@@ -193,6 +195,37 @@ export function ServiceSEO({ config }: { config: ServiceSEOConfig }) {
 function HeroWithForm({ cfg, content }: { cfg: ServiceSEOConfig; content: ServiceContent }) {
   const bg = cfg.heroBg ?? DEFAULTS.defaultHeroBg;
 
+  const FORM_NAME = "Service form";
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    setIsSubmitting(true);
+    setShowSuccess(false);
+
+    try {
+      const response = await submitNetlifyForm({
+        form,
+        endpoint: "/",
+        fullName: { firstField: "firstName", lastField: "lastName", targetField: "fullName" },
+      });
+
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+      setShowSuccess(true);
+      form.reset();
+      window.setTimeout(() => setShowSuccess(false), 6000);
+    } catch (error) {
+      console.error("Form submission error:", error);
+      alert("Error submitting form. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section className="relative">
       <div className="relative bg-cover bg-center" style={{ backgroundImage: `url('${bg}')` }}>
@@ -245,47 +278,74 @@ function HeroWithForm({ cfg, content }: { cfg: ServiceSEOConfig; content: Servic
               Request a <span className="text-[#179DC2]">FREE</span> Quote{" "}
               <span className="text-[#179DC2]">TODAY</span>
             </div>
+
+            {showSuccess && (
+              <div className="mt-2 text-sm text-emerald-700">
+                Thanks! We&apos;ll contact you shortly.
+              </div>
+            )}
           </div>
 
           <form
-            name="Bottom form"
+            name={FORM_NAME}
+            method="POST"
+            action="/thanks/"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit}
             className="px-6 pb-6"
-            onSubmit={(e) => e.preventDefault()}
-            netlify
           >
+            {/* Netlify required hidden inputs */}
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value={FORM_NAME} />
+
+            {/* Optional: helps Netlify show full name in UI */}
+            <input type="hidden" name="fullName" value="" />
+
+            {/* Context for submissions */}
+            <input type="hidden" name="serviceName" value={cfg.serviceName} />
+            <input type="hidden" name="serviceSlug" value={cfg.serviceSlug} />
+            <input type="hidden" name="areaName" value={cfg.areaName} />
+            <input type="hidden" name="areaSlug" value={cfg.areaSlug} />
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
                 name="firstName"
                 placeholder="First Name"
+                required
                 className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
               />
               <input
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
+                required
                 className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
               />
               <input
                 type="tel"
                 name="phone"
                 placeholder="Phone Number"
+                required
                 className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Email Address"
+                required
                 className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400"
               />
               <input
                 type="text"
                 name="suburb"
                 placeholder="Suburb"
+                defaultValue={cfg.areaName}
                 className="h-11 rounded-md border border-gray-300 bg-white px-4 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400 md:col-span-2"
               />
               <textarea
-                name="message"
+                name="issue"
                 placeholder="What seems to be the issue?"
                 className="min-h-[110px] rounded-md border border-gray-300 bg-white px-4 py-3 text-base text-gray-800 placeholder:text-gray-400 outline-none focus:border-gray-400 md:col-span-2"
               />
@@ -293,11 +353,12 @@ function HeroWithForm({ cfg, content }: { cfg: ServiceSEOConfig; content: Servic
 
             <button
               type="submit"
-              className="w-full mt-5 h-11 rounded-md bg-[#169fc3] text-center font-semibold tracking-wide text-white shadow-sm transition-colors hover:bg-[#0f8eae]"
+              disabled={isSubmitting}
+              className="w-full mt-5 h-11 rounded-md bg-[#169fc3] text-center font-semibold tracking-wide text-white shadow-sm transition-colors hover:bg-[#ff1616] disabled:cursor-not-allowed disabled:opacity-70"
             >
               <span className="inline-flex items-center justify-center gap-2">
                 <Send className="h-4 w-4" />
-                GET QUOTE
+                {isSubmitting ? "SENDING..." : "GET QUOTE"}
               </span>
             </button>
           </form>
@@ -307,7 +368,7 @@ function HeroWithForm({ cfg, content }: { cfg: ServiceSEOConfig; content: Servic
   );
 }
 
-function Section({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+function Section({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
     <section className={className}>
       <div className="container mx-auto px-7 lg:px-14 xl:px-20">{children}</div>
