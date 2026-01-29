@@ -440,7 +440,7 @@ function InlineCtaPill() {
 function HeroWithQuoteForm({ config, content }: { config: LocationSEOConfig; content: LocationContent }) {
   const heroBg = DEFAULTS.heroBg;
 
-  const FORM_NAME = "LocationHeroQuote";
+  const FORM_NAME = "Location form";
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
