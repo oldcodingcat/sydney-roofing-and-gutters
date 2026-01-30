@@ -17,7 +17,7 @@ const content: GuideContent = {
   hero: {
     eyebrow: "GUIDE",
     headline: "How Much Does It Cost To Fix A Roof Leak?",
-    subheadline: "Understanding the factors, indicative price ranges, and when to repair, restore or replace — plus a practical checklist for when a leak happens.",
+    subheadline: "Understanding the factors, indicative price ranges, and when to repair, restore or replace - plus a practical checklist for when a leak happens.",
     bullets: [
       "Factors that drive roof leak repair costs",
       "Indicative price ranges (with disclaimers)",
@@ -36,7 +36,7 @@ const content: GuideContent = {
     heading: "Quick summary: what you can do now",
     bullets: [
       "Move or cover belongings under the leak and catch water in buckets or bins to limit damage.",
-      "If safe, go into the roof cavity (with a torch and careful footing) to see if you can spot an obvious point of entry — only if access is safe.",
+      "If safe, go into the roof cavity (with a torch and careful footing) to see if you can spot an obvious point of entry - only if access is safe.",
       "Contact a licensed roofing contractor for an inspection; avoid delaying as hidden damage and cost tend to increase over time.",
       "Get at least two written quotes that clearly list the scope: leak location, materials, and any preparatory work (e.g. mould, timber).",
       "Ask what’s included in the quote (e.g. flashings, valley repairs, internal damage) so you’re not surprised by extra charges.",
@@ -48,7 +48,7 @@ const content: GuideContent = {
       heading: "Why Roof Leaks Need Prompt Attention",
       paragraphs: [
         "Even a small or intermittent leak can allow water into the roof space, where it can soak insulation, rot timber battens or trusses, and create ideal conditions for mould. Once mould or structural damage appears, the scope of work and cost increase. Water can also run along beams or inside walls and affect electrical wiring, increasing safety risks.",
-        "Addressing a leak quickly usually limits the spread of damage and keeps the repair smaller and more affordable. Delaying often means replacing larger areas of roofing, fixing internal linings, or treating mould — all of which add to the final bill.",
+        "Addressing a leak quickly usually limits the spread of damage and keeps the repair smaller and more affordable. Delaying often means replacing larger areas of roofing, fixing internal linings, or treating mould - all of which add to the final bill.",
       ],
     },
     {
@@ -56,7 +56,7 @@ const content: GuideContent = {
       heading: "What Affects the Cost of Fixing a Roof Leak?",
       paragraphs: [
         "Several factors influence the final price. Understanding them helps you interpret quotes and ask the right questions.",
-        "Type and source of the leak: A simple fix — for example, a single dislodged tile or a small gap at a penetration — is usually cheaper than a leak from a failed valley, damaged flashing or widespread deterioration. Harder-to-find leaks can add diagnostic time and cost.",
+        "Type and source of the leak: A simple fix - for example, a single dislodged tile or a small gap at a penetration - is usually cheaper than a leak from a failed valley, damaged flashing or widespread deterioration. Harder-to-find leaks can add diagnostic time and cost.",
         "Access and roof layout: Steep pitches, multiple levels, and confined or awkward access can require more time, safety gear and labour. Single-storey, easy-to-reach roofs tend to be less expensive to work on.",
         "Roofing material: Costs vary by material (e.g. concrete or clay tiles, metal, slate) and availability of matching pieces. Special orders or custom flashings can add to the bill.",
         "Internal and structural damage: If water has damaged sarking, battens, ceiling linings or structure, those repairs are typically quoted separately. Mould remediation may also be needed and will add cost.",
@@ -66,7 +66,7 @@ const content: GuideContent = {
         "Type and source of the leak (localised vs widespread, easy vs hard to find).",
         "Roof access, pitch and complexity (safety and labour time).",
         "Roofing material and need for matching or specialty parts.",
-        "Internal damage: sarking, battens, ceiling, mould — often quoted separately.",
+        "Internal damage: sarking, battens, ceiling, mould - often quoted separately.",
         "Urgency: emergency or after-hours work typically costs more.",
       ],
     },
@@ -75,7 +75,7 @@ const content: GuideContent = {
       heading: "Indicative Cost Ranges for Roof Leak Repairs",
       paragraphs: [
         "The figures below are broad guides only. Real costs depend on your roof, the cause of the leak, your location and the contractor. Always get a written quote after an on-site inspection.",
-        "Simple, localised repairs (e.g. one or two tiles, a small flashing fix, or resealing around a pipe) might sit in the low hundreds of dollars. More involved work — such as valley or flashing replacement, or repairs across several square metres — can reach the mid to high hundreds or more. If the leak has caused significant internal damage, mould treatment or structural repairs, costs can run into the thousands. A full roof restoration or replacement is a separate project and priced accordingly.",
+        "Simple, localised repairs (e.g. one or two tiles, a small flashing fix, or resealing around a pipe) might sit in the low hundreds of dollars. More involved work - such as valley or flashing replacement, or repairs across several square metres - can reach the mid to high hundreds or more. If the leak has caused significant internal damage, mould treatment or structural repairs, costs can run into the thousands. A full roof restoration or replacement is a separate project and priced accordingly.",
         "We strongly recommend getting at least two itemised quotes from licensed roofers. Repairs done poorly can fail quickly or worsen the problem, so prioritise experience and clarity in the quote over the lowest headline price.",
       ],
       bullets: [
@@ -92,7 +92,7 @@ const content: GuideContent = {
       ],
       bullets: [
         "Move or cover furniture, rugs and belongings; use buckets or containers to catch dripping water.",
-        "If it is safe, carefully enter the roof cavity (torch, stable footing) to see if you can spot an obvious entry point — do not touch wiring or disturb insulation unsafely.",
+        "If it is safe, carefully enter the roof cavity (torch, stable footing) to see if you can spot an obvious entry point - do not touch wiring or disturb insulation unsafely.",
         "Take photos or short videos of the leak from inside and, if visible from the ground, any suspicious areas on the roof (e.g. missing tiles, damaged flashings) to share with the roofer.",
         "Contact a licensed roofing contractor to book an inspection; mention it is a leak so they can prioritise if needed.",
         "Get a written quote that specifies: cause of the leak, work to be done, materials, and any extra work (e.g. mould, internal repairs) and their cost.",
@@ -105,7 +105,7 @@ const content: GuideContent = {
       paragraphs: [
         "A targeted repair is suitable when the leak is localised and the rest of the roof is in good condition. For example, a few broken or slipped tiles, a failed section of flashing, or a cracked vent seal can often be fixed without touching the rest of the roof. This is usually the most cost-effective option when the problem is limited.",
         "Roof restoration is worth considering when the roof is generally sound but shows widespread wear: faded or perished coatings, widespread re-pointing or re-bedding needs, or multiple minor defects. A restoration typically includes a full clean, repairs, re-bedding and re-pointing where needed, and a protective coating. It can extend the life of the roof and address several potential leak sources at once. If you have had a leak and the rest of the roof is ageing, your contractor may suggest a restoration to reduce the chance of future leaks.",
-        "Replacement is the right choice when the structure or roofing is too deteriorated to repair or restore safely and economically — for example, major batten or truss damage, or roofing that is at end of life. A full re-roof is a larger investment but may be the only viable long-term option. A licensed roofer can advise which option fits your situation after an inspection.",
+        "Replacement is the right choice when the structure or roofing is too deteriorated to repair or restore safely and economically - for example, major batten or truss damage, or roofing that is at end of life. A full re-roof is a larger investment but may be the only viable long-term option. A licensed roofer can advise which option fits your situation after an inspection.",
       ],
     },
     {
@@ -120,7 +120,7 @@ const content: GuideContent = {
       id: "insurance",
       heading: "Will Insurance Cover a Roof Leak?",
       paragraphs: [
-        "It depends on your policy and the cause of the leak. Many home and building policies cover damage from specific events — such as storms, falling trees, or impact — which can include resulting roof leaks. They often do not cover leaks caused by wear and tear, lack of maintenance, or gradual deterioration. Terms vary between insurers, so check your product disclosure statement and speak to your provider. If you intend to claim, take photos of the damage and keep receipts and reports; your insurer may request an assessor or a report from a licensed roofer.",
+        "It depends on your policy and the cause of the leak. Many home and building policies cover damage from specific events - such as storms, falling trees, or impact - which can include resulting roof leaks. They often do not cover leaks caused by wear and tear, lack of maintenance, or gradual deterioration. Terms vary between insurers, so check your product disclosure statement and speak to your provider. If you intend to claim, take photos of the damage and keep receipts and reports; your insurer may request an assessor or a report from a licensed roofer.",
       ],
     },
   ],
