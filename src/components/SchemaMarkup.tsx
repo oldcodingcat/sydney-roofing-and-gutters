@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 export type SchemaType = 'RoofingContractor' | 'Service' | 'ProfessionalService';
 
 // Ubicaciones disponibles
-export type LocationType = 'newcastle' | 'surrounding';
+export type LocationType = 'sydney' | 'surrounding';
 
 // Servicios disponibles
 export type ServiceType = 
@@ -39,11 +39,11 @@ interface SchemaMarkupProps {
 
 // Datos de ubicaciones
 const locationData = {
-  newcastle: {
+  sydney: {
     address: {
       "@type": "PostalAddress",
       "streetAddress": "1 Tudor Street",
-      "addressLocality": "Newcastle West",
+      "addressLocality": "sydney West",
       "addressRegion": "NSW",
       "postalCode": "2302",
       "addressCountry": "AU"
@@ -53,13 +53,13 @@ const locationData = {
       "latitude": -32.9283,
       "longitude": 151.7817
     },
-    areaServed: "Newcastle, NSW, Australia"
+    areaServed: "sydney, NSW, Australia"
   },
   surrounding: {
     address: {
       "@type": "PostalAddress",
       "streetAddress": "1 Tudor Street",
-      "addressLocality": "Newcastle West",
+      "addressLocality": "sydney West",
       "addressRegion": "NSW",
       "postalCode": "2302",
       "addressCountry": "AU"
@@ -69,7 +69,7 @@ const locationData = {
       "latitude": -32.9283,
       "longitude": 151.7817
     },
-    areaServed: "Newcastle and surrounding suburbs, Hunter Region, NSW, Australia"
+    areaServed: "sydney and surrounding suburbs, NSW, Australia"
   }
 };
 
@@ -153,18 +153,18 @@ const serviceData: Record<ServiceType, { name: string; description: string }> = 
 const SchemaMarkup = ({ 
   type, 
   service, 
-  location = 'newcastle', 
+  location = 'sydney', 
   customName,
   customDescription,
   customUrl
 }: SchemaMarkupProps) => {
   useEffect(() => {
     const generateSchema = () => {
-      const baseUrl = 'https://newcastlelocalroofers.com.au';
+      const baseUrl = 'https://sydneyroofingandgutters.com.au';
       const currentUrl = customUrl || window.location.href;
       
-      // Fallback to 'newcastle' if location is undefined or invalid
-      const validLocation = (location && locationData[location as keyof typeof locationData]) ? location : 'newcastle';
+      // Fallback to 'sydney' if location is undefined or invalid
+      const validLocation = (location && locationData[location as keyof typeof locationData]) ? location : 'sydney';
       const locData = locationData[validLocation];
       
       // Datos base del negocio
@@ -172,10 +172,10 @@ const SchemaMarkup = ({
         "@context": "https://schema.org",
         "@type": type === 'RoofingContractor' ? 'RoofingContractor' : (type === 'ProfessionalService' ? 'ProfessionalService' : 'LocalBusiness'),
         "name": customName || "Sydney Roofing & Gutters",
-        "description": customDescription || "Professional roofing contractor providing 24/7 emergency services in Newcastle, NSW. Specializing in roof repairs, replacements, restoration, and installations.",
+        "description": customDescription || "Professional roofing contractor providing 24/7 emergency services in sydney, NSW. Specializing in roof repairs, replacements, restoration, and installations.",
         "address": locData.address,
         "geo": locData.geo,
-        "telephone": "+61240894613",
+        "telephone": "+611300796024",
         "url": baseUrl,
         "priceRange": "$$",
         "openingHours": "Mo-Su 00:00-24:00",
