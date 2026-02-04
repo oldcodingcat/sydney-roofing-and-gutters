@@ -19,7 +19,7 @@ import { route as guideRoofLeakCostRoute } from "./routes/guides/how-much-does-i
 
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
 import { route as roofReplacementRoute } from "./routes/roof-replacement";
-// import { route as roofRestorationRoute } from "./routes/services/roof-restoration";
+import { route as roofRestorationRoute } from "./routes/services/roof-restoration";
 import { route as newRoofInstallationRoute } from "./routes/new-roof-installation";
 import { route as emergencyRoofRepairsRoute } from "./routes/emergency-roof-repairs";
 import { route as roofInspectionsRoute } from "./routes/roof-inspections";
@@ -146,7 +146,7 @@ const router = createBrowserRouter([
       guideRoofLeakCostRoute,
       roofRepairsRoute,
       roofReplacementRoute,
-      // roofRestorationRoute,
+      roofRestorationRoute,
       newRoofInstallationRoute,
       emergencyRoofRepairsRoute,
       roofInspectionsRoute,
