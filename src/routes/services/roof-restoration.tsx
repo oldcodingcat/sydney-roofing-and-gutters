@@ -20,7 +20,7 @@ const content: ServiceContent = {
     titleBottom: "SYDNEY",
     bullets: [
       "Full cleaning, repairs, re-pointing & re-bedding",
-      "Extend roof life & prevent leaks — cost-effective vs replacement",
+      "Extend roof life & prevent leaks - cost-effective vs replacement",
       "Sealing, coating & painting for lasting protection",
     ],
   },
