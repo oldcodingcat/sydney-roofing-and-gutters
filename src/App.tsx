@@ -26,6 +26,17 @@ import { route as roofingWesternSydneyRoute } from "./routes/locations/western-s
 import { route as roofingInnerWestSydneyRoute } from "./routes/locations/inner-west-sydney";
 import { route as roofingHillsDistrictRoute } from "./routes/locations/hills-district";
 import { route as guideRoofLeakCostRoute } from "./routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
+import { route as guideRoofSarkingRoute } from "./routes/guides/what-is-roof-sarking";
+import { route as guideSkillionRoofRoute } from "./routes/guides/what-is-a-skillion-roof";
+import { route as guideRoofTrussRoute } from "./routes/guides/what-is-a-roof-truss";
+import { route as guideLongestLastingRoofRoute } from "./routes/guides/what-type-of-roof-lasts-the-longest";
+import { route as guideRoofInspectionsFrequencyRoute } from "./routes/guides/how-often-roof-inspections-should-be-conducted";
+import { route as guideCleanMaintainMetalRoofsRoute } from "./routes/guides/how-to-clean-and-maintain-metal-roofs";
+import { route as guideConcreteTilesLifespanRoute } from "./routes/guides/how-long-do-concrete-roof-tiles-last";
+import { route as guideHowManyRoofVentsRoute } from "./routes/guides/how-many-roof-vents-should-i-have";
+import { route as guideTileRoofRepairCostRoute } from "./routes/guides/how-much-does-tile-roof-repair-cost";
+import { route as guideStopLeakingRoofHeavyRainsRoute } from "./routes/guides/how-to-stop-a-leaking-roof-during-heavy-rains";
+import { route as guideCommonGutterProblemsRoute } from "./routes/guides/6-common-gutter-problems-and-how-to-fix-them";
 
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
 import { route as roofReplacementRoute } from "./routes/roof-replacement";
@@ -178,6 +189,17 @@ const router = createBrowserRouter([
       roofingInnerWestSydneyRoute,
       roofingHillsDistrictRoute,
       guideRoofLeakCostRoute,
+      guideRoofSarkingRoute,
+      guideSkillionRoofRoute,
+      guideRoofTrussRoute,
+      guideLongestLastingRoofRoute,
+      guideRoofInspectionsFrequencyRoute,
+      guideCleanMaintainMetalRoofsRoute,
+      guideConcreteTilesLifespanRoute,
+      guideHowManyRoofVentsRoute,
+      guideTileRoofRepairCostRoute,
+      guideStopLeakingRoofHeavyRainsRoute,
+      guideCommonGutterProblemsRoute,
       roofRepairsRoute,
       roofReplacementRoute,
       roofRestorationRoute,
