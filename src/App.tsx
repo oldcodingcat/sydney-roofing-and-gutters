@@ -36,12 +36,14 @@ import { route as roofInspectionsRoute } from "./routes/roof-inspections";
 import { route as gutterRepairsRoute } from "./routes/gutter-repairs";
 import { route as leakDetectionRoute } from "./routes/leak-detection";
 import { route as roofPaintingRoute } from "./routes/roof-painting";
-import { route as metalRoofingRoute } from "./routes/metal-roofing";
+// import { route as metalRoofingRoute } from "./routes/metal-roofing";
 import { route as roofInstallationRoute } from "./routes/roof-installation";
 import { route as roofInspectionRoute } from "./routes/roof-inspection";
 import { route as roofCleaningRoute } from "./routes/roof-cleaning";
 import { route as roofMaintenanceRoute } from "./routes/roof-maintenance";
-import { route as residentialRoofingRoute } from "./routes/residential-roofing";
+// import { route as residentialRoofingRoute } from "./routes/residential-roofing";
+import { route as metalRoofingRoute } from "./routes/services/metal-roofing";
+import { route as residentialRoofingRoute } from "./routes/services/residential-roofing";
 import { route as commercialRoofingRoute } from "./routes/commercial-roofing";
 import { route as skylightRepairRoute } from "./routes/skylight-repair";
 import { route as gutterRepairRoute } from "./routes/gutter-repair";
@@ -127,6 +129,18 @@ import { route as roofersValentineRoute } from "./routes/roofers-valentine";
 import { route as roofersWaratahRoute } from "./routes/roofers-waratah";
 import { route as roofersWarnersBayRoute } from "./routes/roofers-warners-bay";
 import { route as roofersWickhamRoute } from "./routes/roofers-wickham";
+
+import { route as roofingServiceRoute } from "./routes/services/roofing-service";
+import { route as commercialRoofingServiceRoute } from "./routes/services/commercial-roofing-service";
+import { route as residentialMetalRoofingRoute } from "./routes/services/residential-metal-roofing";
+import { route as downpipeInstallationRoute } from "./routes/services/downpipe-installation";
+import { route as colorbondInstallationRoute } from "./routes/services/colorbond-installation";
+import { route as roofCleaningServicesRoute } from "./routes/services/roof-cleaning-services";
+import { route as reRoofingSydneyRoute } from "./routes/services/re-roofing-sydney";
+import { route as roofPaintingSydneyRoute } from "./routes/services/roof-painting-sydney";
+import { route as roofLeakDetectionAndRepairSydneyRoute } from "./routes/services/roof-leak-detection-and-repair-sydney";
+
+
 import NotFound from "./pages/NotFound";
 import Blog from "./pages/Blog";
 import Gallery from "./pages/Gallery";
@@ -264,6 +278,18 @@ const router = createBrowserRouter([
       roofersWaratahRoute,
       roofersWarnersBayRoute,
       roofersWickhamRoute,
+      // Services (template ServiceTemplate)
+      roofingServiceRoute,
+      residentialRoofingRoute,               // ahora viene de ./routes/services/residential-roofing
+      commercialRoofingServiceRoute,
+      metalRoofingRoute,                     // ahora viene de ./routes/services/metal-roofing
+      residentialMetalRoofingRoute,
+      downpipeInstallationRoute,
+      colorbondInstallationRoute,
+      roofCleaningServicesRoute,
+      reRoofingSydneyRoute,
+      roofPaintingSydneyRoute,
+      roofLeakDetectionAndRepairSydneyRoute,
       { path: "*", element: <NotFound /> },
     ],
   },

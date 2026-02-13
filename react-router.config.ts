@@ -36,8 +36,8 @@ import { route as roofInspectionRoute } from "./src/routes/roof-inspection";
 import { route as roofPaintingRoute } from "./src/routes/roof-painting";
 import { route as roofMaintenanceRoute } from "./src/routes/roof-maintenance";
 import { route as roofCleaningRoute } from "./src/routes/roof-cleaning";
-import { route as metalRoofingRoute } from "./src/routes/metal-roofing";
-import { route as residentialRoofingRoute } from "./src/routes/residential-roofing";
+import { route as metalRoofingRoute } from "./src/routes/services/metal-roofing";
+import { route as residentialRoofingRoute } from "./src/routes/services/residential-roofing";
 import { route as commercialRoofingRoute } from "./src/routes/commercial-roofing";
 import { route as skylightRepairRoute } from "./src/routes/skylight-repair";
 import { route as gutterRepairRoute } from "./src/routes/gutter-repair";
@@ -80,7 +80,7 @@ const config = {
     roofingMarayongRoute,
     roofingEasternSuburbsRoute,
     roofingNorthShoreRoute,
-    roofingSydneyCbdRoute,
+    // roofingSydneyCbdRoute,
     roofingNorthernBeachesRoute,
     roofingStGeorgeAreaRoute,
     roofingSutherlandShireRoute,
