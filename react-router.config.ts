@@ -5,7 +5,17 @@ import { route as contactUsRoute } from "./src/routes/contact-us";
 import { route as contactRoute } from "./src/routes/contact";
 import { route as privacyPolicyRoute } from "./src/routes/privacy-policy";
 import { route as TermsAndConditionsRoute } from "./src/routes/terms-and-conditions";
-import { route as roofingSydneyCbdRoute } from "./src/routes/roofing-sydney-cbd";
+// import { route as roofingSydneyCbdRoute } from "./src/routes/roofing-sydney-cbd";
+import { route as roofingSydneyCbdRoute } from "./src/routes/locations/sydney-cbd";
+import { route as roofingEasternSuburbsRoute } from "./src/routes/locations/eastern-suburbs";
+import { route as roofingNorthShoreRoute } from "./src/routes/locations/north-shore";
+import { route as roofingNorthernBeachesRoute } from "./src/routes/locations/northern-beaches";
+import { route as roofingStGeorgeAreaRoute } from "./src/routes/locations/st-george-area";
+import { route as roofingSutherlandShireRoute } from "./src/routes/locations/sutherland-shire";
+import { route as roofingSouthWesternSydneyRoute } from "./src/routes/locations/south-western-sydney";
+import { route as roofingWesternSydneyRoute } from "./src/routes/locations/western-sydney";
+import { route as roofingInnerWestSydneyRoute } from "./src/routes/locations/inner-west-sydney";
+import { route as roofingHillsDistrictRoute } from "./src/routes/locations/hills-district";
 import { route as roofingMarayongRoute } from "./src/routes/locations/marayong";
 import { route as guideRoofLeakCostRoute } from "./src/routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
 
@@ -68,6 +78,16 @@ const config = {
     TermsAndConditionsRoute,
     roofingSydneyCbdRoute,
     roofingMarayongRoute,
+    roofingEasternSuburbsRoute,
+    roofingNorthShoreRoute,
+    roofingSydneyCbdRoute,
+    roofingNorthernBeachesRoute,
+    roofingStGeorgeAreaRoute,
+    roofingSutherlandShireRoute,
+    roofingSouthWesternSydneyRoute,
+    roofingWesternSydneyRoute,
+    roofingInnerWestSydneyRoute,
+    roofingHillsDistrictRoute,
     guideRoofLeakCostRoute,
     blogRoute,
     galleryRoute,

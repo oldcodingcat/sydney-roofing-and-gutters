@@ -13,8 +13,18 @@ import { route as contactUsRoute } from "./routes/contact-us";
 import { route as contactRoute } from "./routes/contact";
 import { route as TermsAndConditionsRoute } from "./routes/terms-and-conditions";
 import { route as privacyPolicyRoute } from "./routes/privacy-policy";
-import { route as roofingSydneyCbdRoute } from "./routes/roofing-sydney-cbd";
+// import { route as roofingSydneyCbdRoute } from "./routes/roofing-sydney-cbd";
+import { route as roofingSydneyCbdRoute } from "./routes/locations/sydney-cbd";
 import { route as roofingMarayongRoute } from "./routes/locations/marayong";
+import { route as roofingEasternSuburbsRoute } from "./routes/locations/eastern-suburbs";
+import { route as roofingNorthShoreRoute } from "./routes/locations/north-shore";
+import { route as roofingNorthernBeachesRoute } from "./routes/locations/northern-beaches";
+import { route as roofingStGeorgeAreaRoute } from "./routes/locations/st-george-area";
+import { route as roofingSutherlandShireRoute } from "./routes/locations/sutherland-shire";
+import { route as roofingSouthWesternSydneyRoute } from "./routes/locations/south-western-sydney";
+import { route as roofingWesternSydneyRoute } from "./routes/locations/western-sydney";
+import { route as roofingInnerWestSydneyRoute } from "./routes/locations/inner-west-sydney";
+import { route as roofingHillsDistrictRoute } from "./routes/locations/hills-district";
 import { route as guideRoofLeakCostRoute } from "./routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
 
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
@@ -143,6 +153,16 @@ const router = createBrowserRouter([
       privacyPolicyRoute,
       roofingSydneyCbdRoute,
       roofingMarayongRoute,
+      roofingEasternSuburbsRoute,
+      roofingNorthShoreRoute,
+      roofingSydneyCbdRoute,
+      roofingNorthernBeachesRoute,
+      roofingStGeorgeAreaRoute,
+      roofingSutherlandShireRoute,
+      roofingSouthWesternSydneyRoute,
+      roofingWesternSydneyRoute,
+      roofingInnerWestSydneyRoute,
+      roofingHillsDistrictRoute,
       guideRoofLeakCostRoute,
       roofRepairsRoute,
       roofReplacementRoute,
