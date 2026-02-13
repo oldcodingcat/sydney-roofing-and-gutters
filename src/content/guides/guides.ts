@@ -18,6 +18,58 @@ const DEFAULT_GEO = {
   longitude: "151.2093",
 };
 
+/**
+ * Normaliza el shape de `content.sections` para que el GuideTemplate no reviente.
+ *
+ * Tu contenido hoy viene como:
+ *   sections: { items: [...] }
+ *
+ * Pero el template (por el error) espera algo tipo:
+ *   sections: Array<{ sections: any[]; ... }>
+ *
+ * Con esto, cualquier variante se transforma al shape esperado.
+ */
+function asArray(v: any): any[] {
+  if (Array.isArray(v)) return v;
+  if (v && Array.isArray(v.items)) return v.items;
+  return [];
+}
+
+function normalizeSections(rawSections: any) {
+  // 1) Si viene como { items: [...] } (tu caso actual), lo envolvemos en 1 grupo
+  if (rawSections && !Array.isArray(rawSections) && Array.isArray(rawSections.items)) {
+    return [
+      {
+        title: rawSections.title ?? rawSections.heading ?? undefined,
+        heading: rawSections.heading ?? rawSections.title ?? undefined,
+        sections: rawSections.items,
+      },
+    ];
+  }
+
+  // 2) Si ya viene como array de grupos, garantizamos que group.sections sea array
+  const groups = asArray(rawSections);
+
+  // Caso: si en realidad es un array “plano” de secciones (sin group.sections),
+  // lo envolvemos en 1 grupo.
+  const looksFlat =
+    groups.length > 0 &&
+    typeof groups[0] === "object" &&
+    groups[0] &&
+    !("sections" in groups[0]) &&
+    ("heading" in groups[0] || "title" in groups[0]);
+
+  if (looksFlat) {
+    return [{ title: undefined, heading: undefined, sections: groups }];
+  }
+
+  // Normalizamos cada grupo
+  return groups.map((g: any) => ({
+    ...g,
+    sections: asArray(g.sections),
+  }));
+}
+
 const GUIDES: Record<string, GuideData> = {
   "what-is-roof-sarking": {
     config: {
@@ -438,11 +490,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "ROOF INSPECTIONS",
         titleBottom: "How often & what to check",
-        bullets: [
-          "Catch small issues before they become leaks",
-          "Annual checks + after major storms",
-          "Photos + report so you can plan repairs",
-        ],
+        bullets: ["Catch small issues before they become leaks", "Annual checks + after major storms", "Photos + report so you can plan repairs"],
       },
       intro: {
         heading: "How often should you inspect your roof?",
@@ -455,15 +503,8 @@ const GUIDES: Record<string, GuideData> = {
         items: [
           {
             heading: "Recommended inspection schedule",
-            paragraphs: [
-              "A simple schedule helps prevent surprise leaks and reduces long-term costs.",
-            ],
-            bullets: [
-              "Annually (general condition check)",
-              "After major storms or extreme wind/rain events",
-              "Before buying/selling a home",
-              "Before/after installing solar or roof penetrations",
-            ],
+            paragraphs: ["A simple schedule helps prevent surprise leaks and reduces long-term costs."],
+            bullets: ["Annually (general condition check)", "After major storms or extreme wind/rain events", "Before buying/selling a home", "Before/after installing solar or roof penetrations"],
           },
           {
             heading: "What a good inspection includes",
@@ -474,16 +515,8 @@ const GUIDES: Record<string, GuideData> = {
           },
           {
             heading: "Warning signs that mean ‘inspect now’",
-            paragraphs: [
-              "Don’t wait for a major leak—these signs usually show a developing issue.",
-            ],
-            bullets: [
-              "Ceiling stains or bubbling paint",
-              "Rust lines on metal roofing",
-              "Cracked or missing tiles",
-              "Overflowing gutters or water marks on fascia",
-              "Mouldy smell in the roof void",
-            ],
+            paragraphs: ["Don’t wait for a major leak—these signs usually show a developing issue."],
+            bullets: ["Ceiling stains or bubbling paint", "Rust lines on metal roofing", "Cracked or missing tiles", "Overflowing gutters or water marks on fascia", "Mouldy smell in the roof void"],
           },
           {
             heading: "DIY checks you can do safely",
@@ -496,26 +529,11 @@ const GUIDES: Record<string, GuideData> = {
       faq: {
         heading: "Roof inspection FAQs",
         items: [
-          {
-            q: "Is one inspection per year enough?",
-            a: "Often yes. But coastal exposure, heavy tree coverage, or an older roof may justify more frequent checks.",
-          },
-          {
-            q: "Should I inspect after every storm?",
-            a: "After significant storms, yes—especially if you noticed debris, leaks, or unusual roof noise.",
-          },
-          {
-            q: "Can I inspect the roof myself?",
-            a: "You can do a basic visual check from the ground. Avoid climbing onto the roof for safety and to prevent tile damage.",
-          },
-          {
-            q: "What’s typically found in inspections?",
-            a: "Common findings include small flashing gaps, cracked tiles, blocked valleys/gutters, and sealant deterioration around penetrations.",
-          },
-          {
-            q: "Do you provide a report?",
-            a: "A good roofer should provide photos and clear recommendations so you can prioritise repairs.",
-          },
+          { q: "Is one inspection per year enough?", a: "Often yes. But coastal exposure, heavy tree coverage, or an older roof may justify more frequent checks." },
+          { q: "Should I inspect after every storm?", a: "After significant storms, yes—especially if you noticed debris, leaks, or unusual roof noise." },
+          { q: "Can I inspect the roof myself?", a: "You can do a basic visual check from the ground. Avoid climbing onto the roof for safety and to prevent tile damage." },
+          { q: "What’s typically found in inspections?", a: "Common findings include small flashing gaps, cracked tiles, blocked valleys/gutters, and sealant deterioration around penetrations." },
+          { q: "Do you provide a report?", a: "A good roofer should provide photos and clear recommendations so you can prioritise repairs." },
         ],
       },
       cta: {
@@ -539,11 +557,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "METAL ROOF CARE",
         titleBottom: "Cleaning & maintenance",
-        bullets: [
-          "Keep debris off to avoid corrosion",
-          "Rinse salt/contaminants in coastal areas",
-          "Inspect flashings, screws, and sealants",
-        ],
+        bullets: ["Keep debris off to avoid corrosion", "Rinse salt/contaminants in coastal areas", "Inspect flashings, screws, and sealants"],
       },
       intro: {
         heading: "Why metal roof maintenance matters",
@@ -556,14 +570,8 @@ const GUIDES: Record<string, GuideData> = {
         items: [
           {
             heading: "How often should you clean a metal roof?",
-            paragraphs: [
-              "A good baseline is a yearly clean and inspection. Coastal homes or roofs under heavy tree cover often need more frequent attention.",
-            ],
-            bullets: [
-              "Yearly general clean",
-              "Every 6–12 months in coastal/exposed zones",
-              "After storms or heavy leaf drop",
-            ],
+            paragraphs: ["A good baseline is a yearly clean and inspection. Coastal homes or roofs under heavy tree cover often need more frequent attention."],
+            bullets: ["Yearly general clean", "Every 6–12 months in coastal/exposed zones", "After storms or heavy leaf drop"],
           },
           {
             heading: "Safe cleaning steps (high-level)",
@@ -571,55 +579,27 @@ const GUIDES: Record<string, GuideData> = {
               "Safety first—avoid walking on wet metal roofs. If you do any DIY cleaning, stick to safe ground-level rinsing where possible and leave roof access to professionals.",
               "Most maintenance involves removing debris from gutters/valleys and rinsing contaminants with low-pressure water.",
             ],
-            bullets: [
-              "Clear gutters, valleys, and leaf guards",
-              "Rinse with low pressure (avoid blasting seams)",
-              "Check for rust spots and coating wear",
-              "Inspect sealants around penetrations",
-            ],
+            bullets: ["Clear gutters, valleys, and leaf guards", "Rinse with low pressure (avoid blasting seams)", "Check for rust spots and coating wear", "Inspect sealants around penetrations"],
           },
           {
             heading: "What to avoid",
-            paragraphs: [
-              "High-pressure washing and harsh chemicals can damage coatings and force water into laps or fastener points.",
-            ],
-            bullets: [
-              "High-pressure washing on seams/laps",
-              "Abrasive pads that scratch coatings",
-              "Strong acids/alkalis without guidance",
-            ],
+            paragraphs: ["High-pressure washing and harsh chemicals can damage coatings and force water into laps or fastener points."],
+            bullets: ["High-pressure washing on seams/laps", "Abrasive pads that scratch coatings", "Strong acids/alkalis without guidance"],
           },
           {
             heading: "When to call a roofer",
-            paragraphs: [
-              "If you see rust, loose flashings, persistent leaks, or fastener issues, it’s time for a professional inspection and targeted repairs.",
-            ],
+            paragraphs: ["If you see rust, loose flashings, persistent leaks, or fastener issues, it’s time for a professional inspection and targeted repairs."],
           },
         ],
       },
       faq: {
         heading: "Metal roof maintenance FAQs",
         items: [
-          {
-            q: "Can I pressure wash a metal roof?",
-            a: "It’s usually not recommended. High pressure can damage coatings and force water into laps or around fixings.",
-          },
-          {
-            q: "How do I treat small rust spots?",
-            a: "Rust needs proper prep and compatible coating systems. A roofer can advise the right repair approach for your roof profile.",
-          },
-          {
-            q: "Does coastal salt really matter?",
-            a: "Yes. Salt accelerates corrosion risk, so regular rinsing/cleaning is important in coastal suburbs.",
-          },
-          {
-            q: "How do I know if sealants are failing?",
-            a: "Look for cracking, gaps, or repeat leaks around penetrations and flashings.",
-          },
-          {
-            q: "What maintenance extends metal roof life most?",
-            a: "Keeping drainage clear, addressing rust early, and maintaining flashings/sealants.",
-          },
+          { q: "Can I pressure wash a metal roof?", a: "It’s usually not recommended. High pressure can damage coatings and force water into laps or around fixings." },
+          { q: "How do I treat small rust spots?", a: "Rust needs proper prep and compatible coating systems. A roofer can advise the right repair approach for your roof profile." },
+          { q: "Does coastal salt really matter?", a: "Yes. Salt accelerates corrosion risk, so regular rinsing/cleaning is important in coastal suburbs." },
+          { q: "How do I know if sealants are failing?", a: "Look for cracking, gaps, or repeat leaks around penetrations and flashings." },
+          { q: "What maintenance extends metal roof life most?", a: "Keeping drainage clear, addressing rust early, and maintaining flashings/sealants." },
         ],
       },
       cta: {
@@ -643,11 +623,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "CONCRETE TILES",
         titleBottom: "Lifespan & upkeep",
-        bullets: [
-          "Tiles can last decades with maintenance",
-          "Pointing, bedding and valleys age sooner",
-          "Cracked tiles should be replaced early",
-        ],
+        bullets: ["Tiles can last decades with maintenance", "Pointing, bedding and valleys age sooner", "Cracked tiles should be replaced early"],
       },
       intro: {
         heading: "Concrete tile roof lifespan",
@@ -663,35 +639,19 @@ const GUIDES: Record<string, GuideData> = {
             paragraphs: [
               "Tiles can last a long time, but ridge capping mortar (bedding/pointing) and valleys often deteriorate earlier due to movement and water flow.",
             ],
-            bullets: [
-              "Tiles: long lifespan",
-              "Bedding/pointing: may need renewal sooner",
-              "Valleys/flashings: common early failure points",
-            ],
+            bullets: ["Tiles: long lifespan", "Bedding/pointing: may need renewal sooner", "Valleys/flashings: common early failure points"],
           },
           {
             heading: "Factors that reduce tile roof lifespan",
             paragraphs: [
               "Tree debris, poor drainage, and repeated foot traffic can crack tiles or cause water to back up. Coastal exposure can also accelerate metal component wear.",
             ],
-            bullets: [
-              "Blocked gutters/valleys",
-              "Cracked/slipped tiles left unrepaired",
-              "Poor ventilation or underlay issues",
-              "Storm damage",
-            ],
+            bullets: ["Blocked gutters/valleys", "Cracked/slipped tiles left unrepaired", "Poor ventilation or underlay issues", "Storm damage"],
           },
           {
             heading: "Maintenance checklist",
-            paragraphs: [
-              "Small maintenance tasks prevent large repair bills. Prioritise drainage and roof penetrations.",
-            ],
-            bullets: [
-              "Replace cracked/slipped tiles",
-              "Re-bed/re-point ridges when failing",
-              "Keep valleys/gutters clear",
-              "Check flashings around skylights/vents",
-            ],
+            paragraphs: ["Small maintenance tasks prevent large repair bills. Prioritise drainage and roof penetrations."],
+            bullets: ["Replace cracked/slipped tiles", "Re-bed/re-point ridges when failing", "Keep valleys/gutters clear", "Check flashings around skylights/vents"],
           },
           {
             heading: "Repair, restore or re-roof?",
@@ -704,26 +664,11 @@ const GUIDES: Record<string, GuideData> = {
       faq: {
         heading: "Concrete tile FAQs",
         items: [
-          {
-            q: "Do tiles wear out or just the pointing?",
-            a: "Often the pointing/bedding and valleys fail before tiles. But tiles can still crack or become porous over time.",
-          },
-          {
-            q: "Can you paint concrete tiles?",
-            a: "Yes as part of a proper restoration process with the right coatings and prep. It’s not just ‘paint on top’.",
-          },
-          {
-            q: "Is it safe to walk on a tile roof?",
-            a: "Tile roofs can crack under foot traffic. Professional access is safer and reduces damage risk.",
-          },
-          {
-            q: "What causes tiles to slip?",
-            a: "Fixing deterioration, storm impact, and movement over time can cause displacement.",
-          },
-          {
-            q: "How do I know if my tile roof needs restoration?",
-            a: "Recurring leaks, cracked ridge pointing, widespread moss, and visible valley deterioration are common indicators.",
-          },
+          { q: "Do tiles wear out or just the pointing?", a: "Often the pointing/bedding and valleys fail before tiles. But tiles can still crack or become porous over time." },
+          { q: "Can you paint concrete tiles?", a: "Yes as part of a proper restoration process with the right coatings and prep. It’s not just ‘paint on top’." },
+          { q: "Is it safe to walk on a tile roof?", a: "Tile roofs can crack under foot traffic. Professional access is safer and reduces damage risk." },
+          { q: "What causes tiles to slip?", a: "Fixing deterioration, storm impact, and movement over time can cause displacement." },
+          { q: "How do I know if my tile roof needs restoration?", a: "Recurring leaks, cracked ridge pointing, widespread moss, and visible valley deterioration are common indicators." },
         ],
       },
       cta: {
@@ -747,11 +692,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "ROOF VENTILATION",
         titleBottom: "How many vents?",
-        bullets: [
-          "Ventilation reduces heat and condensation risk",
-          "Balanced intake + exhaust matters",
-          "The ‘right number’ depends on roof size and design",
-        ],
+        bullets: ["Ventilation reduces heat and condensation risk", "Balanced intake + exhaust matters", "The ‘right number’ depends on roof size and design"],
       },
       intro: {
         heading: "Roof ventilation isn’t one-size-fits-all",
@@ -767,68 +708,35 @@ const GUIDES: Record<string, GuideData> = {
             paragraphs: [
               "Ventilation helps reduce excessive roof-void heat in summer and can reduce condensation risk in cooler periods—protecting timber and insulation.",
             ],
-            bullets: [
-              "Improves comfort and HVAC efficiency",
-              "Reduces moisture build-up",
-              "Helps protect insulation performance",
-            ],
+            bullets: ["Improves comfort and HVAC efficiency", "Reduces moisture build-up", "Helps protect insulation performance"],
           },
           {
             heading: "What influences the ‘right number’",
             paragraphs: [
               "Roof size, layout complexity, and insulation levels influence vent sizing. The goal is enough net free vent area and a clear flow path.",
             ],
-            bullets: [
-              "Roof area and ceiling volume",
-              "Number of hips/valleys and sections",
-              "Insulation type and placement",
-              "Local climate and exposure",
-            ],
+            bullets: ["Roof area and ceiling volume", "Number of hips/valleys and sections", "Insulation type and placement", "Local climate and exposure"],
           },
           {
             heading: "Common vent types",
-            paragraphs: [
-              "Different vents suit different roofs. A roofer will consider aesthetics, performance, and compatibility.",
-            ],
+            paragraphs: ["Different vents suit different roofs. A roofer will consider aesthetics, performance, and compatibility."],
             bullets: ["Ridge vents", "Whirlybirds", "Tile vents", "Soffit/eave vents"],
           },
           {
             heading: "Signs your roof needs better ventilation",
-            paragraphs: [
-              "Hot rooms, mould smells, and damp insulation can point to ventilation issues, but a roofer should confirm the cause.",
-            ],
-            bullets: [
-              "Excessive roof-void heat",
-              "Condensation or mould",
-              "Damp insulation",
-              "Premature timber deterioration",
-            ],
+            paragraphs: ["Hot rooms, mould smells, and damp insulation can point to ventilation issues, but a roofer should confirm the cause."],
+            bullets: ["Excessive roof-void heat", "Condensation or mould", "Damp insulation", "Premature timber deterioration"],
           },
         ],
       },
       faq: {
         heading: "Roof vent FAQs",
         items: [
-          {
-            q: "Do more vents always help?",
-            a: "Not always. You need balanced intake and exhaust, and clear airflow paths. Too many exhaust vents without intake can be ineffective.",
-          },
-          {
-            q: "Are whirlybirds enough?",
-            a: "They can help, but results depend on roof layout and intake ventilation. A balanced system usually performs best.",
-          },
-          {
-            q: "Can ventilation stop condensation?",
-            a: "It can reduce risk, but insulation, air sealing, and moisture sources also matter.",
-          },
-          {
-            q: "Will vents create leaks?",
-            a: "Not when installed correctly with proper flashing and compatible products.",
-          },
-          {
-            q: "How do you size vents?",
-            a: "By roof geometry and required vent area. We can assess your roof and recommend the right setup.",
-          },
+          { q: "Do more vents always help?", a: "Not always. You need balanced intake and exhaust, and clear airflow paths. Too many exhaust vents without intake can be ineffective." },
+          { q: "Are whirlybirds enough?", a: "They can help, but results depend on roof layout and intake ventilation. A balanced system usually performs best." },
+          { q: "Can ventilation stop condensation?", a: "It can reduce risk, but insulation, air sealing, and moisture sources also matter." },
+          { q: "Will vents create leaks?", a: "Not when installed correctly with proper flashing and compatible products." },
+          { q: "How do you size vents?", a: "By roof geometry and required vent area. We can assess your roof and recommend the right setup." },
         ],
       },
       cta: {
@@ -852,11 +760,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "TILE ROOF REPAIR COST",
         titleBottom: "What affects price",
-        bullets: [
-          "Costs depend on access, damage scope, and roof complexity",
-          "Small repairs are cheaper than recurring leaks",
-          "Inspection first = accurate quote",
-        ],
+        bullets: ["Costs depend on access, damage scope, and roof complexity", "Small repairs are cheaper than recurring leaks", "Inspection first = accurate quote"],
       },
       intro: {
         heading: "Tile roof repair cost in Sydney",
@@ -882,9 +786,7 @@ const GUIDES: Record<string, GuideData> = {
           },
           {
             heading: "Typical repair categories",
-            paragraphs: [
-              "Grouping repairs helps estimate scope even before an inspection.",
-            ],
+            paragraphs: ["Grouping repairs helps estimate scope even before an inspection."],
             bullets: [
               "Minor: replace a few cracked/slipped tiles",
               "Medium: localised ridge re-pointing, small valley repairs",
@@ -896,44 +798,22 @@ const GUIDES: Record<string, GuideData> = {
             paragraphs: [
               "Fixing small issues early (and keeping drainage clear) prevents water from spreading into ceiling/insulation and creating larger, more expensive damage.",
             ],
-            bullets: [
-              "Inspect annually",
-              "Replace cracked tiles early",
-              "Keep gutters/valleys clean",
-              "Address flashing/penetration seals",
-            ],
+            bullets: ["Inspect annually", "Replace cracked tiles early", "Keep gutters/valleys clean", "Address flashing/penetration seals"],
           },
           {
             heading: "When a restoration makes more sense",
-            paragraphs: [
-              "If your roof needs repeated repairs across multiple areas, a restoration can be more cost-effective than ongoing patchwork.",
-            ],
+            paragraphs: ["If your roof needs repeated repairs across multiple areas, a restoration can be more cost-effective than ongoing patchwork."],
           },
         ],
       },
       faq: {
         heading: "Tile repair cost FAQs",
         items: [
-          {
-            q: "Can you quote without inspecting?",
-            a: "You can give a rough range, but accurate pricing needs an inspection because tile issues often hide underlying causes.",
-          },
-          {
-            q: "Why are valleys expensive to repair?",
-            a: "Valleys handle concentrated water flow and often require careful removal/resetting of tiles and precise flashing work.",
-          },
-          {
-            q: "Is pointing repair a quick fix?",
-            a: "It can help if the issue is isolated, but failing bedding/pointing often indicates broader ridge work is needed.",
-          },
-          {
-            q: "Does insurance cover tile roof repair?",
-            a: "It depends on the cause (storm damage vs wear-and-tear). Check your policy and document damage.",
-          },
-          {
-            q: "What’s the fastest way to stop a leak?",
-            a: "A temporary tarp can reduce water entry, but proper repair requires identifying the entry point and fixing flashings/tiles.",
-          },
+          { q: "Can you quote without inspecting?", a: "You can give a rough range, but accurate pricing needs an inspection because tile issues often hide underlying causes." },
+          { q: "Why are valleys expensive to repair?", a: "Valleys handle concentrated water flow and often require careful removal/resetting of tiles and precise flashing work." },
+          { q: "Is pointing repair a quick fix?", a: "It can help if the issue is isolated, but failing bedding/pointing often indicates broader ridge work is needed." },
+          { q: "Does insurance cover tile roof repair?", a: "It depends on the cause (storm damage vs wear-and-tear). Check your policy and document damage." },
+          { q: "What’s the fastest way to stop a leak?", a: "A temporary tarp can reduce water entry, but proper repair requires identifying the entry point and fixing flashings/tiles." },
         ],
       },
       cta: {
@@ -957,11 +837,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "STOP A ROOF LEAK",
         titleBottom: "During heavy rain",
-        bullets: [
-          "Prioritise safety—manage water inside first",
-          "Use temporary protection until repairs",
-          "Get a roofer to find the source and fix it",
-        ],
+        bullets: ["Prioritise safety—manage water inside first", "Use temporary protection until repairs", "Get a roofer to find the source and fix it"],
       },
       intro: {
         heading: "Emergency steps (safe and practical)",
@@ -977,11 +853,7 @@ const GUIDES: Record<string, GuideData> = {
             paragraphs: [
               "Move valuables, place buckets, and protect floors. If water is near lights, power points, or ceiling fittings, switch off power to the affected area and call an electrician if needed.",
             ],
-            bullets: [
-              "Buckets/towels to capture drips",
-              "Protect furniture/electronics",
-              "Turn off power if water is near electrical",
-            ],
+            bullets: ["Buckets/towels to capture drips", "Protect furniture/electronics", "Turn off power if water is near electrical"],
           },
           {
             heading: "Step 2: Reduce ceiling water load",
@@ -994,43 +866,22 @@ const GUIDES: Record<string, GuideData> = {
             paragraphs: [
               "Avoid climbing onto a wet roof. If safe access exists, a professional can install a tarp to reduce water entry until permanent repairs are completed.",
             ],
-            bullets: [
-              "Tarping is a temporary measure",
-              "Do not use sealants as a ‘blind’ fix—can trap water",
-              "Book a roofer as soon as conditions allow",
-            ],
+            bullets: ["Tarping is a temporary measure", "Do not use sealants as a ‘blind’ fix—can trap water", "Book a roofer as soon as conditions allow"],
           },
           {
             heading: "Step 4: Permanent repair (after the storm)",
-            paragraphs: [
-              "A roofer will locate the true entry point and repair tiles/metal laps, flashings, valleys, gutters, or penetrations depending on the cause.",
-            ],
+            paragraphs: ["A roofer will locate the true entry point and repair tiles/metal laps, flashings, valleys, gutters, or penetrations depending on the cause."],
           },
         ],
       },
       faq: {
         heading: "Leak emergency FAQs",
         items: [
-          {
-            q: "Why is the leak far from where water enters?",
-            a: "Water can travel along rafters, battens, insulation, and ceilings before dripping. That’s why inspections focus on the source, not the drip point.",
-          },
-          {
-            q: "Should I use roof sealant in the rain?",
-            a: "Usually no. Wet conditions reduce adhesion and a ‘guess’ seal can trap water and worsen issues.",
-          },
-          {
-            q: "Is tarping safe?",
-            a: "It can be when done by professionals with correct safety equipment. Avoid DIY roof access during wet storms.",
-          },
-          {
-            q: "What causes leaks in heavy rain specifically?",
-            a: "Wind-driven rain, blocked gutters/valleys, failing flashings, and overflow at gutters are common causes.",
-          },
-          {
-            q: "What should I photograph for a roofer/insurance?",
-            a: "Take photos of internal damage, active drips, and external roof areas from the ground if possible.",
-          },
+          { q: "Why is the leak far from where water enters?", a: "Water can travel along rafters, battens, insulation, and ceilings before dripping. That’s why inspections focus on the source, not the drip point." },
+          { q: "Should I use roof sealant in the rain?", a: "Usually no. Wet conditions reduce adhesion and a ‘guess’ seal can trap water and worsen issues." },
+          { q: "Is tarping safe?", a: "It can be when done by professionals with correct safety equipment. Avoid DIY roof access during wet storms." },
+          { q: "What causes leaks in heavy rain specifically?", a: "Wind-driven rain, blocked gutters/valleys, failing flashings, and overflow at gutters are common causes." },
+          { q: "What should I photograph for a roofer/insurance?", a: "Take photos of internal damage, active drips, and external roof areas from the ground if possible." },
         ],
       },
       cta: {
@@ -1054,11 +905,7 @@ const GUIDES: Record<string, GuideData> = {
         eyebrow: "Roofing Guide",
         titleTop: "GUTTER PROBLEMS",
         titleBottom: "6 common issues + fixes",
-        bullets: [
-          "Most gutter damage starts with blocked flow",
-          "Small fixes prevent fascia/ceiling damage",
-          "Correct fall + downpipe capacity is key",
-        ],
+        bullets: ["Most gutter damage starts with blocked flow", "Small fixes prevent fascia/ceiling damage", "Correct fall + downpipe capacity is key"],
       },
       intro: {
         heading: "Why gutters matter more than people think",
@@ -1069,67 +916,22 @@ const GUIDES: Record<string, GuideData> = {
       },
       sections: {
         items: [
-          {
-            heading: "1) Blocked gutters and downpipes",
-            paragraphs: [
-              "Leaves and debris cause overflows, especially in storms. Regular cleaning (and leaf guards where appropriate) is the simplest prevention.",
-            ],
-          },
-          {
-            heading: "2) Incorrect gutter fall",
-            paragraphs: [
-              "If gutters don’t fall toward downpipes, water pools and overflows. Re-hanging with correct fall and bracket spacing fixes the root cause.",
-            ],
-          },
-          {
-            heading: "3) Leaking joints and corners",
-            paragraphs: [
-              "Sealants degrade over time. Repairs may involve re-sealing, replacing sections, or upgrading joint systems depending on gutter type.",
-            ],
-          },
-          {
-            heading: "4) Rust/corrosion (metal gutters)",
-            paragraphs: [
-              "Rust often starts where water sits—near debris build-up or damaged coatings. Treating early can extend life; advanced corrosion usually needs replacement.",
-            ],
-          },
-          {
-            heading: "5) Sagging gutters",
-            paragraphs: [
-              "Sagging is typically bracket failure, excessive debris weight, or fascia issues. Fixing brackets and checking fascia condition solves it.",
-            ],
-          },
-          {
-            heading: "6) Overflow during heavy rain",
-            paragraphs: [
-              "If gutters overflow even when clean, they may be undersized, have insufficient downpipes, or lack overflow provisions. A roofer can calculate capacity and recommend upgrades.",
-            ],
-          },
+          { heading: "1) Blocked gutters and downpipes", paragraphs: ["Leaves and debris cause overflows, especially in storms. Regular cleaning (and leaf guards where appropriate) is the simplest prevention."] },
+          { heading: "2) Incorrect gutter fall", paragraphs: ["If gutters don’t fall toward downpipes, water pools and overflows. Re-hanging with correct fall and bracket spacing fixes the root cause."] },
+          { heading: "3) Leaking joints and corners", paragraphs: ["Sealants degrade over time. Repairs may involve re-sealing, replacing sections, or upgrading joint systems depending on gutter type."] },
+          { heading: "4) Rust/corrosion (metal gutters)", paragraphs: ["Rust often starts where water sits—near debris build-up or damaged coatings. Treating early can extend life; advanced corrosion usually needs replacement."] },
+          { heading: "5) Sagging gutters", paragraphs: ["Sagging is typically bracket failure, excessive debris weight, or fascia issues. Fixing brackets and checking fascia condition solves it."] },
+          { heading: "6) Overflow during heavy rain", paragraphs: ["If gutters overflow even when clean, they may be undersized, have insufficient downpipes, or lack overflow provisions. A roofer can calculate capacity and recommend upgrades."] },
         ],
       },
       faq: {
         heading: "Gutter FAQs",
         items: [
-          {
-            q: "How often should gutters be cleaned?",
-            a: "At least twice a year, and more often if you have overhanging trees or after storms.",
-          },
-          {
-            q: "Do leaf guards solve everything?",
-            a: "They help, but they still need maintenance. The right guard depends on your roof and debris type.",
-          },
-          {
-            q: "Why do gutters overflow when they look clean?",
-            a: "Often due to insufficient downpipe capacity, incorrect fall, or undersized gutters for the roof catchment.",
-          },
-          {
-            q: "Can leaking gutters cause internal roof leaks?",
-            a: "Yes. Overflow can push water back into eaves/roof edges and create ceiling damage.",
-          },
-          {
-            q: "When should I replace instead of repair?",
-            a: "When corrosion is widespread, gutters are repeatedly leaking, or fascia structure is compromised.",
-          },
+          { q: "How often should gutters be cleaned?", a: "At least twice a year, and more often if you have overhanging trees or after storms." },
+          { q: "Do leaf guards solve everything?", a: "They help, but they still need maintenance. The right guard depends on your roof and debris type." },
+          { q: "Why do gutters overflow when they look clean?", a: "Often due to insufficient downpipe capacity, incorrect fall, or undersized gutters for the roof catchment." },
+          { q: "Can leaking gutters cause internal roof leaks?", a: "Yes. Overflow can push water back into eaves/roof edges and create ceiling damage." },
+          { q: "When should I replace instead of repair?", a: "When corrosion is widespread, gutters are repeatedly leaking, or fascia structure is compromised." },
         ],
       },
       cta: {
@@ -1146,19 +948,13 @@ export function getGuideConfig(slug: string): GuideData | undefined {
   const data = GUIDES[slug];
   if (!data) return undefined;
 
-  const sectionsRaw: any = data.content?.sections;
+  // Clonamos content para no mutar el objeto fuente
+  const content = { ...(data.content ?? {}) };
 
-  const sections = Array.isArray(sectionsRaw)
-    ? sectionsRaw
-    : sectionsRaw?.items ?? [];
+  // Normalizamos sections al shape que espera GuideTemplate
+  content.sections = normalizeSections(content.sections);
 
-  return {
-    ...data,
-    content: {
-      ...data.content,
-      sections,
-    },
-  };
+  return { ...data, content };
 }
 
 export const guideSlugs = Object.keys(GUIDES);
