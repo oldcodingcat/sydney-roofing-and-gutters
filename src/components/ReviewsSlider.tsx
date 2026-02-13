@@ -74,7 +74,7 @@ const ReviewsSlider: React.FC = () => {
         name: "Julian Portelli",
         yearsAgo: "4 years ago",
         avatarType: "image",
-        avatarImg: "/public/images/julian-portelli.webp",
+        avatarImg: "/images/julian-portelli.webp",
         text:
           "Awesome job! Sydney roof and gutters recently installed our new roof and it looks amazing. Great team who kept us updated throughout the entire job. Would definitely recommend them for anyone needing roofing work done.",
       },
@@ -93,7 +93,7 @@ const ReviewsSlider: React.FC = () => {
         name: "Kirsty M",
         yearsAgo: "3 years ago",
         avatarType: "image",
-        avatarImg: "/public/images/kirsty-m.webp",
+        avatarImg: "/images/kirsty-m.webp",
         text:
           "From quote to completion, everything was smooth. The crew arrived on time, explained what they were doing, and cleaned up after. Very happy with the roof restoration result and the finish looks fantastic.",
       },
@@ -172,7 +172,7 @@ const ReviewsSlider: React.FC = () => {
             <div className="flex items-start gap-4">
               <div className="h-12 w-12 overflow-hidden rounded-md border border-black/10 bg-black/5">
                 <img
-                  src="/public/images/google-reviews-thumbnail-roof.webp"
+                  src="/images/google-reviews-thumbnail-roof.webp"
                   alt="Sydney Roofing and Gutters"
                   className="h-full w-full object-cover"
                   loading="lazy"
